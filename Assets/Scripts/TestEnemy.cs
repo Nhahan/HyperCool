@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,27 +6,55 @@ using UnityEngine;
 public class TestEnemy : MonoBehaviour
 {
     [SerializeField] private float moveSpeed;
-    [SerializeField] private float changeTime;
+    [SerializeField] private float cycleLength;
     [SerializeField] private bool changeDirection;
+    [SerializeField] private bool isRight;
     
-    private float changeDirectionTime;
+    private Vector3 firstPosition;
+
+    private void Start()
+    {
+        firstPosition = transform.position;
+    }
     
     private void FixedUpdate()
     {
-        changeDirectionTime += Time.deltaTime;
-        if (changeDirectionTime > changeTime)
+        if (Mathf.Abs(transform.position.x) - Mathf.Abs(firstPosition.x) > cycleLength)
         {
             changeDirection = !changeDirection;
-            changeDirectionTime = 0;
         }
-        
-        if (changeDirection) 
+
+        Move();
+    }
+
+    private void Move()
+    {
+        if (isRight)
         {
-            transform.position += Vector3.right * (moveSpeed * Time.deltaTime);
+            if (changeDirection)
+            {
+                transform.position += Vector3.right * (moveSpeed * GameManager.I.gameSpeed * Time.deltaTime);
+            }
+            else
+            {
+                transform.position += Vector3.left * (moveSpeed * GameManager.I.gameSpeed * Time.deltaTime);
+            }
         }
         else
         {
-            transform.position += Vector3.left * (moveSpeed * Time.deltaTime);
+            if (changeDirection)
+            {
+                transform.position += Vector3.left * (moveSpeed * GameManager.I.gameSpeed * Time.deltaTime);
+            }
+            else
+            {
+                transform.position += Vector3.right * (moveSpeed * GameManager.I.gameSpeed * Time.deltaTime);
+            }
         }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Destroy(gameObject);
     }
 }
