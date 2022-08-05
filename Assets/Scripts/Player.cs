@@ -1,13 +1,12 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] private Rigidbody rb;
-    
     public static Player I;
-    
-    private void Awake() 
+
+    private void Awake()
     {
         if (I == null)
         {
@@ -17,16 +16,5 @@ public class Player : MonoBehaviour
         {
             Destroy(gameObject);
         }
-    }
-
-    private void Start()
-    {
-        
-    }
-    
-    private void FixedUpdate()
-    {
-        var gameSpeed = rb.velocity.magnitude / 5f;
-        GameManager.I.gameSpeed = gameSpeed > 0.05f ? gameSpeed : 0 ;
     }
 }
