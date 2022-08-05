@@ -128,11 +128,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1773623360729482, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
   m_PrefabInstance: {fileID: 2133395956}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &8264181 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 54063890643546284, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
-  m_PrefabInstance: {fileID: 2133395956}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &8264184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145,7 +140,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffde273c9069b49dabf1ec84a27f7be8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 8264181}
 --- !u!4 &8264188 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4207293392497186, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
@@ -1376,6 +1370,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 921335133, guid: ab00078efe3b84cd9bf13626d85ae356, type: 3}
+      propertyPath: radius
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3411247571386235457, guid: ab00078efe3b84cd9bf13626d85ae356, type: 3}
       propertyPath: m_RootOrder
       value: 1

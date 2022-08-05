@@ -124,6 +124,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3411247571386235457}
   - component: {fileID: 3411247571395745165}
+  - component: {fileID: 921335133}
   m_Layer: 0
   m_Name: AK47_ENEMY
   m_TagString: Untagged
@@ -168,6 +169,27 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &921335133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3411247571386263075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f377b8f907e643ecbcd351aa76d713c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 10
+  angle: 100
+  targetMask:
+    serializedVersion: 2
+    m_Bits: 64
+  obstructionMask:
+    serializedVersion: 2
+    m_Bits: 1024
+  canSeePlayer: 0
 --- !u!1 &3411247571386263077
 GameObject:
   m_ObjectHideFlags: 0
