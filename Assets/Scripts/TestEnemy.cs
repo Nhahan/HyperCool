@@ -9,22 +9,41 @@ public class TestEnemy : MonoBehaviour
     [SerializeField] private float cycleLength;
     [SerializeField] private bool changeDirection;
     [SerializeField] private bool isRight;
+    [SerializeField] private GameObject bullet;
     
     private Vector3 firstPosition;
+
+    private float fireCooltime;
 
     private void Start()
     {
         firstPosition = transform.position;
+
+        StartCoroutine(Attack());
     }
     
     private void FixedUpdate()
     {
+        fireCooltime += GameManager.I.gameSpeed;
         if (Mathf.Abs(transform.position.x) - Mathf.Abs(firstPosition.x) > cycleLength)
         {
             changeDirection = !changeDirection;
         }
 
         Move();
+    }
+
+    private IEnumerator Attack()
+    {
+        while(true) 
+        {
+            yield return new WaitForSeconds(4f);
+            if (fireCooltime > 10f) 
+            {
+                Instantiate(bullet, transform.position, Quaternion.identity);
+                fireCooltime = 0;
+            }
+        }
     }
 
     private void Move()
