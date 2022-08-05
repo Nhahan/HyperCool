@@ -6,6 +6,8 @@ using Random = UnityEngine.Random;
 
 public class FieldOfView : MonoBehaviour
 {
+    [SerializeField] private GameObject weapon;
+    
     [SerializeField] public float radius;
     [SerializeField] public float angle;
     [SerializeField] private LayerMask targetMask;
@@ -15,9 +17,14 @@ public class FieldOfView : MonoBehaviour
     
     public bool canSeePlayer;
 
+    private Vector3 firstWeaponPosition;
+    private Quaternion firstWeaponRotation;
+
     private void Start()
     {
         animator = gameObject.GetComponent<Animator>();
+        firstWeaponPosition = weapon.transform.localPosition;
+        firstWeaponRotation = weapon.transform.localRotation;
         
         StartCoroutine(FOVRoutine());
     }
@@ -37,10 +44,15 @@ public class FieldOfView : MonoBehaviour
         {
             var firePosition = Random.Range(0, 3); // TODO 
             animator.SetInteger("IsFire", 1);
+            weapon.transform.localPosition = new Vector3(0.01f, 0.153f, 0.151f);
+            weapon.transform.localRotation = Quaternion.Euler(109.579f, 16.951f, 25.146f);
+            transform.rotation = Quaternion.LookRotation(Player.I.transform.position - transform.position);
         }
         else
         {
             animator.SetInteger("IsFire", 0);
+            weapon.transform.localPosition = firstWeaponPosition;
+            weapon.transform.localRotation = firstWeaponRotation;
         }
     }
 
