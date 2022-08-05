@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class FieldOfView : MonoBehaviour
+public class AK47Enemy : MonoBehaviour
 {
     [SerializeField] private GameObject weapon;
     
