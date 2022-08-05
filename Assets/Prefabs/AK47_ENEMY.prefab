@@ -181,8 +181,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f377b8f907e643ecbcd351aa76d713c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 10
-  angle: 100
+  weapon: {fileID: 3409900606259700287}
+  radius: 7
+  angle: 360
   targetMask:
     serializedVersion: 2
     m_Bits: 64
@@ -1210,5 +1211,10 @@ PrefabInstance:
 --- !u!4 &3406728197955929569 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4519716788627816, guid: ee329c3cd08e58645834d20702d7f6c6, type: 3}
+  m_PrefabInstance: {fileID: 3411247570571472009}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3409900606259700287 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1487774384131766, guid: ee329c3cd08e58645834d20702d7f6c6, type: 3}
   m_PrefabInstance: {fileID: 3411247570571472009}
   m_PrefabAsset: {fileID: 0}

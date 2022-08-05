@@ -7,15 +7,17 @@ using Random = UnityEngine.Random;
 public class AK47Enemy : MonoBehaviour
 {
     [SerializeField] private GameObject weapon;
+    [SerializeField] private GameObject muzzle;
+    [SerializeField] private GameObject bullet;
     
-    [SerializeField] public float radius;
-    [SerializeField] public float angle;
+    [SerializeField] private float radius;
+    [SerializeField] private float angle;
     [SerializeField] private LayerMask targetMask;
     [SerializeField] private LayerMask obstructionMask;
 
     private Animator animator;
     
-    public bool canSeePlayer;
+    private bool canSeePlayer;
 
     private Vector3 firstWeaponPosition;
     private Quaternion firstWeaponRotation;
@@ -27,20 +29,12 @@ public class AK47Enemy : MonoBehaviour
         firstWeaponRotation = weapon.transform.localRotation;
         
         StartCoroutine(FOVRoutine());
-    }
-
-    private IEnumerator FOVRoutine()
-    {
-        while (true)
-        {
-            yield return new WaitForSeconds(0.25f);
-            FieldOfViewCheck();
-        }
+        StartCoroutine(Fire());
     }
 
     private void FixedUpdate()
     {
-        if (canSeePlayer)
+        if (canSeePlayer && GameManager.I.gameOver == false)
         {
             var firePosition = Random.Range(0, 3); // TODO 
             animator.SetInteger("IsFire", 1);
@@ -53,6 +47,26 @@ public class AK47Enemy : MonoBehaviour
             animator.SetInteger("IsFire", 0);
             weapon.transform.localPosition = firstWeaponPosition;
             weapon.transform.localRotation = firstWeaponRotation;
+        }
+    }
+
+    private IEnumerator Fire()
+    {
+        yield return new WaitForSeconds(13 / 6f);
+        while (canSeePlayer)
+        {
+            Debug.Log("bullet");
+            Instantiate(bullet, muzzle.transform.position, Quaternion.identity);
+        }
+        yield return new WaitForSeconds(13 / 6f);
+    }
+    
+    private IEnumerator FOVRoutine()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(0.25f);
+            FieldOfViewCheck();
         }
     }
 

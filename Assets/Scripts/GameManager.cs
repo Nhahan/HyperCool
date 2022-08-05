@@ -5,6 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager I;
+    public bool gameOver;
 
     public float gameSpeed;
     private Vector3 firstGravity;

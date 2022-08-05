@@ -9,6 +9,7 @@ public class EnemyBullet : MonoBehaviour
 
     private void Start()
     {
+        Debug.Log("Instantiate Bulelt");
         var player = Player.I.transform.position;
         targetDirection = new Vector3(player.x, player.y + 1.5f, player.z) - transform.position;
     }
