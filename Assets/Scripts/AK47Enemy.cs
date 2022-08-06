@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -28,78 +29,45 @@ public class AK47Enemy : MonoBehaviour
         firstWeaponPosition = weapon.transform.localPosition;
         firstWeaponRotation = weapon.transform.localRotation;
         
-        StartCoroutine(FOVRoutine());
-        StartCoroutine(Fire());
+        // StartCoroutine(FOVRoutine());
     }
 
     private void FixedUpdate()
     {
-        if (canSeePlayer && GameManager.I.gameOver == false)
+        animator.speed = GameManager.I.gameSpeed;
+        
+        if (canSeePlayer && !GameManager.I.gameOver)
         {
+            if (animator.GetInteger("IsFire") == 1) return;
             var firePosition = Random.Range(0, 3); // TODO 
             animator.SetInteger("IsFire", 1);
             weapon.transform.localPosition = new Vector3(0.01f, 0.153f, 0.151f);
             weapon.transform.localRotation = Quaternion.Euler(109.579f, 16.951f, 25.146f);
-            transform.rotation = Quaternion.LookRotation(Player.I.transform.position - transform.position);
+            
+            WatchPlayer();
         }
         else
         {
+            if (animator.GetInteger("IsFire") == 0) return;
             animator.SetInteger("IsFire", 0);
             weapon.transform.localPosition = firstWeaponPosition;
             weapon.transform.localRotation = firstWeaponRotation;
         }
     }
 
-    private IEnumerator Fire()
+    private void WatchPlayer()
     {
-        yield return new WaitForSeconds(13 / 6f);
-        while (canSeePlayer)
-        {
-            Debug.Log("bullet");
-            Instantiate(bullet, muzzle.transform.position, Quaternion.identity);
-        }
-        yield return new WaitForSeconds(13 / 6f);
-    }
-    
-    private IEnumerator FOVRoutine()
-    {
-        while (true)
-        {
-            yield return new WaitForSeconds(0.25f);
-            FieldOfViewCheck();
-        }
+        Debug.Log("Why not?");
+        transform.rotation = Quaternion.LookRotation(Player.I.transform.position - transform.position);
     }
 
-    private void FieldOfViewCheck()
+    private void Fire()
     {
-        Collider[] rangeChecks = Physics.OverlapSphere(transform.position, radius, targetMask);
+        Instantiate(bullet, muzzle.transform.position, Quaternion.identity);
+    }
 
-        if (rangeChecks.Length != 0)
-        {
-            var target = rangeChecks[0].transform;
-            var directionToTarget = (target.position - transform.position).normalized;
-
-            if (Vector3.Angle(transform.forward, directionToTarget) < angle / 2)
-            {
-                var distanceToTarget = Vector3.Distance(transform.position, target.position);
-
-                if (!Physics.Raycast(transform.position, directionToTarget, distanceToTarget, obstructionMask))
-                {
-                    canSeePlayer = true;
-                }
-                else
-                {
-                    canSeePlayer = false;
-                }
-            }
-            else
-            {
-                canSeePlayer = false;
-            }
-        }
-        else if (canSeePlayer)
-        {
-            canSeePlayer = false;
-        }
+    private void LateUpdate()
+    {
+        canSeePlayer = Vector3.Distance(transform.position, Player.I.transform.position) < radius;
     }
 }

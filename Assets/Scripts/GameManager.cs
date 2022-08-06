@@ -25,6 +25,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        gameSpeed = 1;
         firstGravity = Physics.gravity;
     }
 

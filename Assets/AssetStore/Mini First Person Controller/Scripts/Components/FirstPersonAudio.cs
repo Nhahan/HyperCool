@@ -54,14 +54,7 @@ public class FirstPersonAudio : MonoBehaviour
         float velocity = Vector3.Distance(CurrentCharacterPosition, lastCharacterPosition);
         if (velocity >= velocityThreshold && groundCheck && groundCheck.isGrounded)
         {
-            if (character.IsRunning)
-            {
-                SetPlayingMovingAudio(runningAudio);
-            }
-            else
-            {
-                SetPlayingMovingAudio(stepAudio);
-            }
+            SetPlayingMovingAudio(stepAudio);
         }
         else
         {
