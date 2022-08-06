@@ -1,12 +1,9 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
     private Rigidbody rb;
-    
+    private FirstPersonMovement controller;
     public static Player I;
 
     [SerializeField] private bool testMode;
@@ -26,21 +23,17 @@ public class Player : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
+        controller = GetComponent<FirstPersonMovement>();
     }
 
-    private void FixedUpdate()
-    {
-        if (testMode) return; 
-        
-        var velocity = rb.velocity.magnitude;
-        
-        if (velocity < 0.05f)
-        {
-            GameManager.I.gameSpeed = 0.01f;
-        }
-        else
-        {
-            GameManager.I.gameSpeed = rb.velocity.magnitude / 5;
-        }
-    }
+    // private void FixedUpdate()
+    // {
+    //     if (testMode) return; 
+    //     
+    //     var gameSpeed = rb.velocity.magnitude / 5f;
+    //
+    //     Time.timeScale = gameSpeed == 0f ? 0.1f : gameSpeed;
+    //     controller.speed *= Time.timeScale * (1 / Time.timeScale);
+    // }
 }
+    

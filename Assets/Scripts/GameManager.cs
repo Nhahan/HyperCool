@@ -7,9 +7,6 @@ public class GameManager : MonoBehaviour
     public static GameManager I;
     public bool gameOver;
 
-    public float gameSpeed;
-    private Vector3 firstGravity;
-
     private void Awake()
     {
         Application.targetFrameRate = 60;
@@ -25,12 +22,9 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        gameSpeed = 1;
-        firstGravity = Physics.gravity;
     }
 
     private void FixedUpdate()
     {
-        Physics.gravity = firstGravity * gameSpeed;
     }
 }

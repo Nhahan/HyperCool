@@ -23,6 +23,7 @@ public class FirstPersonMovement : MonoBehaviour
         {
             speed = speedOverrides[speedOverrides.Count - 1]();
         }
+        Debug.Log("speed:"+speed);
 
         // Get targetVelocity from input.
         Vector2 targetVelocity =new Vector2( Input.GetAxis("Horizontal") * speed, Input.GetAxis("Vertical") * speed);

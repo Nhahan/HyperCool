@@ -34,8 +34,6 @@ public class AK47Enemy : MonoBehaviour
 
     private void FixedUpdate()
     {
-        animator.speed = GameManager.I.gameSpeed;
-        
         if (canSeePlayer && !GameManager.I.gameOver)
         {
             if (animator.GetInteger("IsFire") == 1) return;
