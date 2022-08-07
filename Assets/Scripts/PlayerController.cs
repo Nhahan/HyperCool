@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] private VariableJoystick variableJoystick;
     [SerializeField] private float movementSpeed;
+    [SerializeField] private bool testMode;
     
     private Rigidbody rb;
     private float defaultFixedDeltaTime;
@@ -31,10 +32,16 @@ public class PlayerController : MonoBehaviour
                 StartCoroutine(ActionRoutine(0.03f));
             }
         }
-        
-        rb.velocity = new Vector3(variableJoystick.Horizontal, 0,variableJoystick.Vertical) *
+
+        TimeScale();
+    }
+
+    private void TimeScale()
+    {
+        rb.velocity = new Vector3(variableJoystick.Horizontal, 0, variableJoystick.Vertical) *
                       (movementSpeed * Time.deltaTime);
 
+        if (testMode) return; 
         var x = Mathf.Abs(rb.velocity.x);
         var z = Mathf.Abs(rb.velocity.z);
 
@@ -42,8 +49,8 @@ public class PlayerController : MonoBehaviour
         var lerpTime = (x != 0 || z != 0) ? 0.05f : 0.5f;
 
         time = action ? 1 : time;
-        lerpTime = action ? 0.1f : lerpTime;
-        
+        lerpTime = action ? 0.05f : lerpTime;
+
         Time.timeScale = Mathf.Lerp(Time.timeScale, time, lerpTime);
         Time.fixedDeltaTime = Time.timeScale switch
         {
