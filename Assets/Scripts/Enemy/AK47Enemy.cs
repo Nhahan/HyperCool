@@ -1,15 +1,21 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR;
 using Random = UnityEngine.Random;
 
 public class AK47Enemy : Enemy
 {
+    [SerializeField] private GameObject destructible;
+    [SerializeField] private SkinnedMeshRenderer skinnedMeshRenderer;
+    
     [SerializeField] private GameObject muzzle;
     [SerializeField] private GameObject bullet;
 
-    private Animator animator;
+    private bool isDead;
 
+    private Animator animator;
     private Vector3 firstWeaponPosition;
     private Quaternion firstWeaponRotation;
 
@@ -33,13 +39,25 @@ public class AK47Enemy : Enemy
             if (animator.GetInteger("IsFire") == 1) return;
             var firePosition = Random.Range(0, 3); // TODO 
             animator.SetInteger("IsFire", 1);
-            weapon.transform.localPosition = new Vector3(-0.467f, 0.496f, -0.178f);
-            weapon.transform.localRotation = Quaternion.Euler(101.993f, -154.185f, -72.21399f);
+            weapon.transform.localPosition = new Vector3(-0.176f, 0.17f, -0.086f);
+            weapon.transform.localRotation = Quaternion.Euler(93.704f, -92.403f, -10.775f);
         }
         catch
         {
             Destroy(weapon);
         }
+    }
+
+    public void SetDestructible()
+    {
+        if (gameObject.layer == LayerMask.NameToLayer("Dead")) return;
+        gameObject.layer = LayerMask.NameToLayer("Dead");
+
+        Instantiate(ParticleManager.I.hitParticles, transform.position, Quaternion.identity);
+        Destroy(weapon);
+        skinnedMeshRenderer.enabled = false;
+        destructible.SetActive(true);
+        skinnedMeshRenderer.BakeMesh(destructible.GetComponent<MeshFilter>().mesh, true);
     }
 
     private void Fire()

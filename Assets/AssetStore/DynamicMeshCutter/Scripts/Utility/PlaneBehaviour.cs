@@ -21,7 +21,7 @@ namespace DynamicMeshCutter
                     if (!target.CompareTag("Enemy")) continue;
                     if (Vector3.Distance(Player.I.transform.position, target.transform.position) < 4)
                     {
-                        Instantiate(ParticleManager.I.hitParticles, target.transform.position + new Vector3(0, 1.2f, 0), Quaternion.identity);
+                        Instantiate(ParticleManager.I.hitParticles, target.transform.position + new Vector3(0, 1.5f, 0), Quaternion.identity);
                         Cut(target, transform.position, transform.forward, null, OnCreated);
                         target.tag = "Dead";
                     }
