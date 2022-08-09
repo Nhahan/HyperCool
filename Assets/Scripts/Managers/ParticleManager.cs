@@ -1,22 +1,23 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class ParticleManager : MonoBehaviour
+namespace Managers
 {
-    [SerializeField] public GameObject hitParticles;
-    
-    public static ParticleManager I;
-
-    private void Awake()
+    public class ParticleManager : MonoBehaviour
     {
-        if (I == null)
+        [SerializeField] public GameObject hitParticles;
+    
+        public static ParticleManager I;
+
+        private void Awake()
         {
-            I = this;
-        } 
-        else if (I != this)
-        {
-            Destroy(gameObject);
+            if (I == null)
+            {
+                I = this;
+            } 
+            else if (I != this)
+            {
+                Destroy(gameObject);
+            }
         }
     }
 }

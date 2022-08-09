@@ -1,30 +1,25 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+namespace Managers
 {
-    public static GameManager I;
-    public bool gameOver;
-
-    private void Awake()
+    public class GameManager : MonoBehaviour
     {
-        Application.targetFrameRate = 60;
-        if (I == null)
+        public static GameManager I;
+        public bool gameOver;
+
+        private void Awake()
         {
-            I = this;
-        } 
-        else if (I != this)
-        {
-            Destroy(gameObject);
+            Application.targetFrameRate = 60;
+            if (I == null)
+            {
+                I = this;
+            } 
+            else if (I != this)
+            {
+                Destroy(gameObject);
+            }
         }
-    }
 
-    private void Start()
-    {
-    }
-
-    private void FixedUpdate()
-    {
+    
     }
 }

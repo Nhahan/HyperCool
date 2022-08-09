@@ -1,15 +1,18 @@
 using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerWeapon : MonoBehaviour
 {
-    private Vector3 firstRot;
-
-    private void FixedUpdate()
+    private void OnTriggerEnter(Collider other)
     {
-        if (Input.GetMouseButton(0))
+        if (!Player.I.isAttackAvailable) return;
+        
+        Debug.Log("Hit! " + other.tag + " / " + other.name);
+        if (other.CompareTag("Enemy"))
         {
-            transform.Rotate(50, -25, 0);
+            other.transform.root.GetComponent<Enemy>().SetDestructible();
         }
     }
 }

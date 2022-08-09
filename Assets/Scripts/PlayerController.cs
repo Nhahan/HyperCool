@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Managers;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -29,7 +30,7 @@ public class PlayerController : MonoBehaviour
             if (Input.GetMouseButtonDown(0))
             {
                 StopCoroutine(ActionRoutine(0.03f));
-                StartCoroutine(ActionRoutine(0.03f));
+                StartCoroutine(ActionRoutine(0.2f));
             }
         }
 
@@ -45,7 +46,7 @@ public class PlayerController : MonoBehaviour
         var x = Mathf.Abs(rb.velocity.x);
         var z = Mathf.Abs(rb.velocity.z);
 
-        var time = (x != 0 || z != 0) ? 1f : 0.03f;
+        var time = (x != 0 || z != 0) ? 1f : 0.1f;
         var lerpTime = (x != 0 || z != 0) ? 0.05f : 0.5f;
 
         time = action ? 1 : time;
@@ -54,8 +55,7 @@ public class PlayerController : MonoBehaviour
         Time.timeScale = Mathf.Lerp(Time.timeScale, time, lerpTime);
         Time.fixedDeltaTime = Time.timeScale switch
         {
-            < 0.1f => 0.001f,
-            < 0.2f => 0.002f,
+            < 0.2f => 0.005f,
             _ => defaultFixedDeltaTime
         };
     }
