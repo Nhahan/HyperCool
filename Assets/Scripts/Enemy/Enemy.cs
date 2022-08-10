@@ -50,7 +50,6 @@ public class Enemy : MonoBehaviour
     
     public void SetDestructible()
     {
-        Debug.Log("??");
         if (isDead) return;
         skinnedMeshRenderer.enabled = false;
         destructible.SetActive(true);

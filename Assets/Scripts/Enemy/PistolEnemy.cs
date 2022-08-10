@@ -2,7 +2,7 @@ using Managers;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class AK47Enemy : Enemy
+public class PistolEnemy : Enemy
 {
     [SerializeField] private GameObject muzzle;
     [SerializeField] private GameObject bullet;
@@ -18,11 +18,9 @@ public class AK47Enemy : Enemy
 
         try
         {
-            if (animator.GetInteger("IsFire") == 1) return;
+            if (animator.GetBool("IsFire")) return;
             var firePosition = Random.Range(0, 3); // TODO 
-            animator.SetInteger("IsFire", 1);
-            weapon.transform.localPosition = new Vector3(-0.176f, 0.17f, -0.086f);
-            weapon.transform.localRotation = Quaternion.Euler(93.704f, -92.403f, -10.775f);
+            animator.SetBool("IsFire", true);
         }
         catch
         {

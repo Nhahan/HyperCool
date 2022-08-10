@@ -22,7 +22,14 @@ public class PlayerWeapon : MonoBehaviour
         
         if (other.gameObject.layer == LayerMask.NameToLayer("Enemy"))
         {
-            other.transform.root.GetComponent<Enemy>().SetDestructible();
+            try
+            {
+                other.transform.root.GetComponent<Enemy>().SetDestructible();
+            }
+            catch
+            {
+                // ignored
+            }
         }
     }
 }
