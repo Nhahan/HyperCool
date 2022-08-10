@@ -27,10 +27,10 @@ public class PlayerController : MonoBehaviour
     {
         if (!GameManager.I.gameOver)
         {
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1))
             {
                 StopCoroutine(ActionRoutine(0.03f));
-                StartCoroutine(ActionRoutine(0.2f));
+                StartCoroutine(ActionRoutine(0.5f));
             }
         }
 
@@ -46,7 +46,7 @@ public class PlayerController : MonoBehaviour
         var x = Mathf.Abs(rb.velocity.x);
         var z = Mathf.Abs(rb.velocity.z);
 
-        var time = (x != 0 || z != 0) ? 1f : 0.1f;
+        var time = (x != 0 || z != 0) ? 1f : 0.15f;
         var lerpTime = (x != 0 || z != 0) ? 0.05f : 0.5f;
 
         time = action ? 1 : time;
@@ -55,7 +55,7 @@ public class PlayerController : MonoBehaviour
         Time.timeScale = Mathf.Lerp(Time.timeScale, time, lerpTime);
         Time.fixedDeltaTime = Time.timeScale switch
         {
-            < 0.2f => 0.005f,
+            < 0.2f => 0.004f,
             _ => defaultFixedDeltaTime
         };
     }

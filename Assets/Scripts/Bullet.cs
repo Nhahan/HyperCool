@@ -4,20 +4,30 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     [SerializeField] private new SphereCollider collider;
+    
     private Vector3 targetDirection;
 
     private bool isHit;
+    private bool isPerfectHit;
+    private float liveTime;
+    public GameObject enemy;
 
     private void Start()
     {
         collider.enabled = false;
         
         var player = Player.I.transform.position;
-        targetDirection = new Vector3(player.x, player.y + 1.5f, player.z) - transform.position;
+        targetDirection = new Vector3(player.x, player.y + 1.725f, player.z) - transform.position;
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
+        liveTime += Time.deltaTime;
+        if (liveTime > 10f)
+        {
+            Destroy(gameObject);
+        }
+
         Move();
     }
 
@@ -26,10 +36,29 @@ public class Bullet : MonoBehaviour
         switch (other.tag)
         {
             case "Player":
-                Debug.Log("Player Hit!");
+                if (isHit) return;
                 Destroy(gameObject);
                 break;
             case "PlayerWeapon":
+                if (isHit) return;
+                var d = Vector3.Distance(Player.I.transform.position, transform.position);
+                if (d is > 1.35f and < 1.85f)
+                {
+                    Debug.Log("PerfectHit! d = " + d);
+                    enemy.GetComponent<Enemy>().animator.enabled = false;
+                    isPerfectHit = true;
+                }
+                else if (d > 2.55f)
+                {
+                    break;
+                }
+                else
+                {
+                    targetDirection = (Player.I.transform.position - transform.position +
+                                       new Vector3(Random.Range(-10f, 10f), 1.725f + Random.Range(-2f, 2f),
+                                           Random.Range(-1f, 1f))).normalized * 5f;
+                }
+
                 isHit = true;
                 break;
             case "Enemy":
@@ -37,22 +66,23 @@ public class Bullet : MonoBehaviour
                 {
                     collider.enabled = true;
                     Debug.Log("Enemy Hit!");
+                    
+                    other.transform.root.GetComponent<Enemy>().SetDestructible();
                     Destroy(other.gameObject);
                     Destroy(gameObject);
                 }
+
                 break;
         }
     }
 
     private void Move()
     {
-        if (isHit)
+        if (isPerfectHit)
         {
-            transform.position -= targetDirection * Time.deltaTime;   
+            targetDirection = (enemy.transform.position - transform.position + new Vector3(0, 1.65f, 0)).normalized * 3f;
         }
-        else
-        {
-            transform.position += targetDirection * Time.deltaTime;
-        }
+        
+        transform.position += targetDirection * Time.deltaTime;
     }
 }

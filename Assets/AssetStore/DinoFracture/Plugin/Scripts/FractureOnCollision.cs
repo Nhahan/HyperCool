@@ -49,31 +49,29 @@ namespace DinoFracture
 
         private void OnCollisionEnter(Collision col)
         {
-            if (!_fractureGeometry.IsProcessingFracture && col.contactCount > 0)
+            // if (_fractureGeometry.IsProcessingFracture || col.contactCount <= 0) return;
+            _impactBody = col.rigidbody;
+            _impactMass = (col.rigidbody != null) ? col.rigidbody.mass : 0.0f;
+
+            _impactPoint = Vector3.zero;
+
+            Vector3 avgNormal = Vector3.zero;
+            for (int i = 0; i < col.contactCount; i++)
             {
-                _impactBody = col.rigidbody;
-                _impactMass = (col.rigidbody != null) ? col.rigidbody.mass : 0.0f;
+                var contact = col.GetContact(i);
 
-                _impactPoint = Vector3.zero;
+                _impactPoint += contact.point;
+                avgNormal += contact.normal;
+            }
+            _impactPoint *= 1.0f / col.contactCount;
 
-                Vector3 avgNormal = Vector3.zero;
-                for (int i = 0; i < col.contactCount; i++)
-                {
-                    var contact = col.GetContact(i);
+            _impactImpulse = avgNormal.normalized * col.impulse.magnitude;
 
-                    _impactPoint += contact.point;
-                    avgNormal += contact.normal;
-                }
-                _impactPoint *= 1.0f / col.contactCount;
-
-                _impactImpulse = avgNormal.normalized * col.impulse.magnitude;
-
-                float forceMag = 0.5f * _impactImpulse.sqrMagnitude;
-                if (forceMag >= ForceThreshold)
-                {
-                    Vector3 localPoint = transform.worldToLocalMatrix.MultiplyPoint(_impactPoint);
-                    _fractureGeometry.Fracture(localPoint);
-                }
+            float forceMag = 0.5f * _impactImpulse.sqrMagnitude;
+            if (forceMag >= ForceThreshold)
+            {
+                Vector3 localPoint = transform.worldToLocalMatrix.MultiplyPoint(_impactPoint);
+                _fractureGeometry.Fracture(localPoint);
             }
         }
 

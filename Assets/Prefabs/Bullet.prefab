@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -1302587006282284441}
   - component: {fileID: 3881069156665712324}
   - component: {fileID: 5373057893018961382}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114,6 +114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collider: {fileID: 5373057893018961382}
+  enemy: {fileID: 0}
 --- !u!54 &-1302587006282284441
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -122,14 +123,14 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5646935182312360496}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 10
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
-  m_CollisionDetection: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!96 &3881069156665712324
 TrailRenderer:
   serializedVersion: 2

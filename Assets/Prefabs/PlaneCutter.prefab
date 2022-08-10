@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5626938867913463031
+--- !u!1 &8553190777312754413
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5626938867913463029}
-  - component: {fileID: 5626938867913463030}
+  - component: {fileID: 7780044935553086284}
+  - component: {fileID: 7937467327806393217}
   m_Layer: 0
   m_Name: PlaneCutter
   m_TagString: Untagged
@@ -17,13 +17,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5626938867913463029
+--- !u!4 &7780044935553086284
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5626938867913463031}
+  m_GameObject: {fileID: 8553190777312754413}
   m_LocalRotation: {x: 0.7133831, y: 0.026649864, z: -0.04113082, w: 0.6990585}
   m_LocalPosition: {x: -0.13, y: 1.43, z: 0.79}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -32,13 +32,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 88.35, y: 228.058, z: 222.564}
---- !u!114 &5626938867913463030
+--- !u!114 &7937467327806393217
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5626938867913463031}
+  m_GameObject: {fileID: 8553190777312754413}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a7da90c7c25b7364d8bb2164631559c4, type: 3}
@@ -48,5 +48,5 @@ MonoBehaviour:
   DestroyTargets: 1
   UseAsync: 1
   VertexCreationThreshold: 0
-  DefaultMaterial: {fileID: 2100000, guid: 2de202dc7f4ae4fc292bdd290135195f, type: 2}
+  DefaultMaterial: {fileID: 2100000, guid: 30d3bdcd8e9e6a947b19338f628af5b5, type: 2}
   DebugPlaneLength: 1

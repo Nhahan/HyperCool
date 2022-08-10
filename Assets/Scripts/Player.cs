@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] private GameObject weapon;
     
-    public bool isAttacking;
+    public int isAttacking;
     public bool isAttackAvailable;
     
     public static Player I;
@@ -28,36 +28,41 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0) && !isAttacking)
+        if (Input.GetMouseButtonDown(0) && isAttacking is 0)
         {
-            isAttacking = true;
-            
-            
-            StartCoroutine(SetAnimator("IsRightSlash"));
-        }
-            
-        if (isAttacking) 
-        { 
-            animator.SetBool("IsRightSlash", true);
-        }
-        else
+            isAttacking = 1;
+            StartCoroutine(SetAnimator("IsRightSlash", 0.633f));
+        } 
+        else if (Input.GetMouseButtonDown(1) && isAttacking is 0)
         {
-            animator.SetBool("IsRightSlash", false);
+            isAttacking = 2;
+            StartCoroutine(SetAnimator("IsLeftSlash", 0.317f));
+        }
+
+        switch (isAttacking)
+        {
+            case 1:
+                animator.SetBool("IsRightSlash", true);
+                break;
+            case 2:
+                animator.SetBool("IsLeftSlash", true);
+                break;
+            default:
+                animator.SetBool("IsRightSlash", false);
+                animator.SetBool("IsLeftSlash", false);
+                break;
         }
     }
 
-    private IEnumerator SetAnimator(string anim)
+    private IEnumerator SetAnimator(string anim, float time)
     {
-        const float seconds = 0.633f;
-        yield return new WaitForSeconds(seconds / 10 * 3.5f);
-        weapon.SetActive(true);
+        yield return new WaitForSeconds(time / 10 * 3f);
         isAttackAvailable = true;
 
-        yield return new WaitForSeconds(seconds / 10 * 5.5f);
-        isAttacking = false;
+        yield return new WaitForSeconds(time / 10 * 5.75f);
+        isAttacking = 0;
         isAttackAvailable = false;
         animator.SetBool(anim, false);
-        weapon.SetActive(false);
     }
 }
     
