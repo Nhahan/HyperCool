@@ -66,12 +66,7 @@ public class Enemy : MonoBehaviour
 
         plane.Cut();
 
+        GameManager.I.RemoveEnemyFromList(gameObject);
         Destroy(gameObject, 4f);
-    }
-
-    public enum DestructibleType
-    {
-        Katana,
-        Bullet,
     }
 }

@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -8,6 +9,7 @@ namespace Managers
     {
         public static GameManager I;
         public bool gameOver;
+        public List<GameObject> enemies = new();
 
         private void Awake()
         {
@@ -28,6 +30,11 @@ namespace Managers
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
+        }
+
+        public void RemoveEnemyFromList(GameObject enemy)
+        {
+            enemies.Remove(enemy);
         }
     }
 }

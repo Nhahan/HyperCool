@@ -20,7 +20,7 @@ public class PlayerWeapon : MonoBehaviour
     {
         if (!Player.I.isAttackAvailable) return;
         
-        if (other.CompareTag("Enemy"))
+        if (other.gameObject.layer == LayerMask.NameToLayer("Enemy"))
         {
             other.transform.root.GetComponent<Enemy>().SetDestructible();
         }
