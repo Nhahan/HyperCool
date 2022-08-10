@@ -1,18 +1,31 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using DinoFracture;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class DestructibleObjects : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private GameObject destructible;
+    private MeshRenderer meshRenderer;
+
+    private bool isCollided;
+
+    private void Start()
     {
-        
+        destructible = transform.GetChild(0).gameObject;
+        meshRenderer = GetComponent<MeshRenderer>();
+
+        destructible.GetComponent<RuntimeFracturedGeometry>().NumFracturePieces = Random.Range(5, 10);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnCollisionEnter(Collision collision)
     {
-        
+        if (collision.transform.CompareTag("Stable") || isCollided) return;
+
+        isCollided = true;
+        meshRenderer.enabled = false;
+        destructible.SetActive(true);
     }
 }

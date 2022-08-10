@@ -49,7 +49,7 @@ namespace DinoFracture
 
         private void OnCollisionEnter(Collision col)
         {
-            // if (_fractureGeometry.IsProcessingFracture || col.contactCount <= 0) return;
+            if (_fractureGeometry.IsProcessingFracture || col.contactCount <= 0) return;
             _impactBody = col.rigidbody;
             _impactMass = (col.rigidbody != null) ? col.rigidbody.mass : 0.0f;
 

@@ -11,7 +11,7 @@ public class Land : MonoBehaviour
     private static IEnumerator ToKinematic(GameObject col)
     {
         var rb = col.GetComponent<Rigidbody>();
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(3f);
         try
         {
             rb.isKinematic = true;
