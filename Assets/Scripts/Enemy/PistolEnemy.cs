@@ -14,6 +14,7 @@ public class PistolEnemy : Enemy
 
     private void FixedUpdate()
     {
+        if (GameManager.I.pause) return;
         if (GameManager.I.gameOver) return;
 
         if (!IsAttacking) return;
@@ -71,6 +72,7 @@ public class PistolEnemy : Enemy
 
     private void Fire()
     {
+        if (GameManager.I.pause) return;
         try
         {
             Instantiate(bullet, muzzle.transform.position, Quaternion.identity).GetComponent<Bullet>().enemy = gameObject;

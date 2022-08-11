@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Managers;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour
@@ -23,6 +24,8 @@ public class Bullet : MonoBehaviour
 
     private void Update()
     {
+        if (GameManager.I.pause) return;
+        
         liveTime += Time.deltaTime;
         if (liveTime > 10f)
         {

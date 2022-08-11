@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -27,7 +28,7 @@ namespace Managers
 
         private void Start()
         {
-            pause = true;
+            StartCoroutine(Pause(true));
         }
 
         private void Update()
@@ -36,8 +37,10 @@ namespace Managers
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
-            else if (Input.GetKeyDown(KeyCode.G))
+            
+            if (Input.GetKeyDown(KeyCode.G))
             {
+                Debug.Log("Resume");
                 pause = false;
             }
         }
@@ -45,6 +48,12 @@ namespace Managers
         public void RemoveEnemyFromList(GameObject enemy)
         {
             enemies.Remove(enemy);
+        }
+
+        private IEnumerator Pause(bool b)
+        {
+            yield return new WaitForSeconds(0.05f);
+            pause = b;
         }
     }
 }

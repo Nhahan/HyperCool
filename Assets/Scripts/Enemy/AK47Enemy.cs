@@ -12,7 +12,7 @@ public class AK47Enemy : Enemy
 
     private void FixedUpdate()
     {
-        if (GameManager.I.gameOver) return;
+        if (GameManager.I.gameOver || GameManager.I.pause) return;
 
         if (!IsAttacking) return;
 

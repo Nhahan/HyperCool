@@ -17,7 +17,7 @@ public class DestructibleObjects : MonoBehaviour
         destructible = transform.GetChild(0).gameObject;
         meshRenderer = GetComponent<MeshRenderer>();
 
-        destructible.GetComponent<RuntimeFracturedGeometry>().NumFracturePieces = Random.Range(5, 10);
+        destructible.GetComponent<RuntimeFracturedGeometry>().NumFracturePieces = Random.Range(3, 8);
     }
 
     private void OnCollisionEnter(Collision collision)

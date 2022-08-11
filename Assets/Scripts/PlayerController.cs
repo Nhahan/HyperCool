@@ -30,7 +30,7 @@ public class PlayerController : MonoBehaviour
             if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1))
             {
                 StopCoroutine(ActionRoutine(0.03f));
-                StartCoroutine(ActionRoutine(0.5f));
+                StartCoroutine(ActionRoutine(0.25f));
             }
         }
 
@@ -39,21 +39,21 @@ public class PlayerController : MonoBehaviour
 
     private void TimeScale()
     {
+        if (testMode) return;
+        
         if (GameManager.I.pause)
         {
-            Time.timeScale = 0;
+            Time.timeScale = 1;
             return;
         }
         
-        if (testMode) return;
-
         rb.velocity = new Vector3(variableJoystick.Horizontal, 0, variableJoystick.Vertical) *
                       (movementSpeed * Time.deltaTime);
 
         var x = Mathf.Abs(rb.velocity.x);
         var z = Mathf.Abs(rb.velocity.z);
 
-        var time = (x != 0 || z != 0) ? 1f : 0.15f;
+        var time = (x != 0 || z != 0) ? 1f : 0.2f;
         var lerpTime = (x != 0 || z != 0) ? 0.05f : 0.5f;
 
         time = action ? 1 : time;
@@ -62,7 +62,7 @@ public class PlayerController : MonoBehaviour
         Time.timeScale = Mathf.Lerp(Time.timeScale, time, lerpTime);
         Time.fixedDeltaTime = Time.timeScale switch
         {
-            < 0.2f => 0.004f,
+            < 0.3f => 0.004f,
             _ => defaultFixedDeltaTime
         };
     }

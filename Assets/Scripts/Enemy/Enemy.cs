@@ -1,6 +1,8 @@
+using System;
 using DynamicMeshCutter;
 using Managers;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class Enemy : MonoBehaviour
 {
@@ -37,9 +39,16 @@ public class Enemy : MonoBehaviour
 
         transform.rotation = Quaternion.LookRotation(newDirection);
     }
-    
+
+    private void Update()
+    {
+        Pause();
+    }
+
     protected void LateUpdate()
     {
+        if (GameManager.I.gameOver || GameManager.I.pause) return;
+        
         WatchPlayer();
         
         if (canSeePlayer) return;
@@ -91,5 +100,10 @@ public class Enemy : MonoBehaviour
         plane.Cut();
         GameManager.I.RemoveEnemyFromList(gameObject);
         Destroy(gameObject, 5f);
+    }
+
+    private void Pause()
+    {
+        animator.enabled = !GameManager.I.pause;
     }
 }

@@ -16,6 +16,6 @@ public class EnemiesCounter : MonoBehaviour
 
     private void Update()
     {
-        textMeshProUGUI.text = "Enemies Left : " + GameManager.I.enemies.Count.ToString();
+        textMeshProUGUI.text = "Enemies:" + GameManager.I.enemies.Count;
     }
 }

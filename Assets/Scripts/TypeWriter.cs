@@ -3,12 +3,12 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TypeWriterUI : MonoBehaviour
+public class TypeWriter : MonoBehaviour
 {
 	private Text text;
 	private TMP_Text tmpProText;
 	private string writer;
-	private const string LeadingChar = "|";
+	private const string LeadingChar = "█";
 
 	[SerializeField] private float delayBeforeStart = 0f;
 	[SerializeField] private float timeBtwChars = 0.1f;

@@ -6,7 +6,6 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     [SerializeField] private Animator animator;
-    [SerializeField] private GameObject weapon;
     
     public int isAttacking;
     public bool isAttackAvailable;
@@ -28,6 +27,9 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
+        Pause();
+        if (GameManager.I.pause) return;
+        
         if (Input.GetMouseButtonDown(0) && isAttacking is 0)
         {
             isAttacking = 1;
@@ -59,10 +61,15 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(time / 10 * 3f);
         isAttackAvailable = true;
 
-        yield return new WaitForSeconds(time / 10 * 5.75f);
+        yield return new WaitForSeconds(time / 10 * 5f);
         isAttacking = 0;
         isAttackAvailable = false;
         animator.SetBool(anim, false);
+    }
+    
+    private void Pause()
+    {
+        animator.enabled = !GameManager.I.pause;
     }
 }
     
