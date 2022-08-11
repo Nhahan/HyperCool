@@ -8,6 +8,7 @@ namespace Managers
     public class GameManager : MonoBehaviour
     {
         public static GameManager I;
+        public bool pause;
         public bool gameOver;
         public List<GameObject> enemies = new();
 
@@ -24,11 +25,20 @@ namespace Managers
             }
         }
 
+        private void Start()
+        {
+            pause = true;
+        }
+
         private void Update()
         {
             if (Input.GetKeyDown(KeyCode.R))
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
+            else if (Input.GetKeyDown(KeyCode.G))
+            {
+                pause = false;
             }
         }
 

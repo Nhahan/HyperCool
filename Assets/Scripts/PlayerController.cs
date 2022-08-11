@@ -39,10 +39,17 @@ public class PlayerController : MonoBehaviour
 
     private void TimeScale()
     {
+        if (GameManager.I.pause)
+        {
+            Time.timeScale = 0;
+            return;
+        }
+        
+        if (testMode) return;
+
         rb.velocity = new Vector3(variableJoystick.Horizontal, 0, variableJoystick.Vertical) *
                       (movementSpeed * Time.deltaTime);
 
-        if (testMode) return; 
         var x = Mathf.Abs(rb.velocity.x);
         var z = Mathf.Abs(rb.velocity.z);
 
