@@ -3763,6 +3763,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3348490521125831727, guid: 228e46e339fd443fa9f7f984c9e7613b, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3914498702500410001, guid: 228e46e339fd443fa9f7f984c9e7613b, type: 3}
       propertyPath: m_Name
       value: Pistol
@@ -3811,6 +3815,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7621159000332538061, guid: 228e46e339fd443fa9f7f984c9e7613b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9197825001867958425, guid: 228e46e339fd443fa9f7f984c9e7613b, type: 3}
+      propertyPath: speed
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 9197825001867958425, guid: 228e46e339fd443fa9f7f984c9e7613b, type: 3}
+      propertyPath: radius
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 228e46e339fd443fa9f7f984c9e7613b, type: 3}
 --- !u!1 &2454111479944075352 stripped
@@ -3825,34 +3841,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1358753143324220042, guid: 20313c4d775cf49b98d36fe48fa34b91, type: 3}
-      propertyPath: m_Size.x
-      value: 0.35
-      objectReference: {fileID: 0}
-    - target: {fileID: 1358753143324220042, guid: 20313c4d775cf49b98d36fe48fa34b91, type: 3}
-      propertyPath: m_Center.x
-      value: -0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3179777832792067355, guid: 20313c4d775cf49b98d36fe48fa34b91, type: 3}
-      propertyPath: m_Center.x
-      value: -0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3179777832792067428, guid: 20313c4d775cf49b98d36fe48fa34b91, type: 3}
-      propertyPath: m_Size.x
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3179777832792067428, guid: 20313c4d775cf49b98d36fe48fa34b91, type: 3}
-      propertyPath: m_Size.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3179777832792067428, guid: 20313c4d775cf49b98d36fe48fa34b91, type: 3}
-      propertyPath: m_Size.z
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3179777832792067428, guid: 20313c4d775cf49b98d36fe48fa34b91, type: 3}
-      propertyPath: m_Center.x
-      value: -0.1
-      objectReference: {fileID: 0}
     - target: {fileID: 3181399575994860325, guid: 20313c4d775cf49b98d36fe48fa34b91, type: 3}
       propertyPath: m_Name
       value: Player

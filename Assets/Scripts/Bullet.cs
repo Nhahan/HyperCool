@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -44,8 +45,8 @@ public class Bullet : MonoBehaviour
                 var d = Vector3.Distance(Player.I.transform.position, transform.position);
                 if (d is > 1.35f and < 1.85f)
                 {
-                    Debug.Log("PerfectHit! d = " + d);
                     enemy.GetComponent<Enemy>().animator.enabled = false;
+                    // StartCoroutine(EnemyAnimatorEnable());
                     isPerfectHit = true;
                 }
                 else if (d > 2.55f)
@@ -56,7 +57,7 @@ public class Bullet : MonoBehaviour
                 {
                     targetDirection = (Player.I.transform.position - transform.position +
                                        new Vector3(Random.Range(-10f, 10f), 1.725f + Random.Range(-2f, 2f),
-                                           Random.Range(-1f, 1f))).normalized * 5f;
+                                           Random.Range(-1f, 1f))).normalized * 10f;
                 }
 
                 isHit = true;
@@ -67,7 +68,7 @@ public class Bullet : MonoBehaviour
                     collider.enabled = true;
                     Debug.Log("Enemy Hit!");
                     
-                    other.transform.root.GetComponent<Enemy>().SetDestructible();
+                    other.transform.root.GetComponent<Enemy>().SetCuttibleByBullet();
                     Destroy(other.gameObject);
                     Destroy(gameObject);
                 }
@@ -84,5 +85,12 @@ public class Bullet : MonoBehaviour
         }
         
         transform.position += targetDirection * Time.deltaTime;
+    }
+
+    private IEnumerator EnemyAnimatorEnable()
+    {
+        enemy.GetComponent<Enemy>().animator.enabled = false;
+        yield return new WaitForSeconds(3f);
+        enemy.GetComponent<Enemy>().animator.enabled = true;
     }
 }

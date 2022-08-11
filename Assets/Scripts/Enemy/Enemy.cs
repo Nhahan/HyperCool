@@ -13,7 +13,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] protected float radius;
     
     public Animator animator;
-    private bool isDead;
+    protected bool isDead;
     private bool canSeePlayer;
     protected bool IsAttacking;
     private Mesh destructibleMesh;
@@ -28,7 +28,7 @@ public class Enemy : MonoBehaviour
         destructibleMeshRenderer = destructible.GetComponent<MeshRenderer>();
     }
 
-    private void WatchPlayer()
+    protected virtual void WatchPlayer()
     {
         if (isDead) return;
         
@@ -48,24 +48,48 @@ public class Enemy : MonoBehaviour
         if (canSeePlayer) IsAttacking = true;
     }
     
-    public void SetDestructible()
+    public void SetCuttible()
     {
         if (isDead) return;
         skinnedMeshRenderer.enabled = false;
-        destructible.SetActive(true);
         skinnedMeshRenderer.BakeMesh(destructibleMesh, true);
         destructibleMeshRenderer.enabled = true;
+        plane.Cut();
         
         isDead = true;
         gameObject.layer = LayerMask.NameToLayer("Dead");
         animator.enabled = false;
 
-        Instantiate(ParticleManager.I.hitParticles, transform.position + new Vector3(0, 1.5f, 0), Quaternion.identity);
+        Instantiate(ParticleManager.I.hitParticles, transform.position + new Vector3(0, 1.7f, 0), Quaternion.identity);
         Destroy(weapon);
 
-        plane.Cut();
 
         GameManager.I.RemoveEnemyFromList(gameObject);
-        Destroy(gameObject, 4f);
+        Destroy(gameObject, 5f);
+    }
+    
+    public void SetCuttibleByBullet()
+    {
+        if (isDead) return;
+        plane.GetComponent<PlaneBehaviour>().Separation = 0.15f;
+        
+        skinnedMeshRenderer.enabled = false;
+        skinnedMeshRenderer.BakeMesh(destructibleMesh, true);
+        destructibleMeshRenderer.enabled = true;
+        
+        plane.transform.localPosition += new Vector3(0, 0, 0.35f);
+        
+        isDead = true;
+        gameObject.layer = LayerMask.NameToLayer("Dead");
+        animator.enabled = false;
+
+        Instantiate(ParticleManager.I.hitParticles, transform.position + new Vector3(0, 1.71f, 0), Quaternion.identity);
+        Instantiate(ParticleManager.I.hitParticles, transform.position + new Vector3(0, 1.74f, 0), Quaternion.identity);
+        Destroy(weapon);
+
+
+        plane.Cut();
+        GameManager.I.RemoveEnemyFromList(gameObject);
+        Destroy(gameObject, 5f);
     }
 }

@@ -1,18 +1,24 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerWeapon : MonoBehaviour
 {
-    [SerializeField] private BoxCollider boxCollider;
+    private List<BoxCollider> boxColliders = new();
+
+    private void Start()
+    {
+        boxColliders.AddRange(GetComponents<BoxCollider>());
+    }
 
     private void FixedUpdate()
     {
         if (Player.I.isAttackAvailable)
         {
-            boxCollider.enabled = true;
+            boxColliders.ForEach(boxCollider => boxCollider.enabled = true);
         }
         else
         {
-            boxCollider.enabled = false;   
+            boxColliders.ForEach(boxCollider => boxCollider.enabled = false);   
         }
     }
 
@@ -24,7 +30,7 @@ public class PlayerWeapon : MonoBehaviour
         {
             try
             {
-                other.transform.root.GetComponent<Enemy>().SetDestructible();
+                other.transform.root.GetComponent<Enemy>().SetCuttible();
             }
             catch
             {
