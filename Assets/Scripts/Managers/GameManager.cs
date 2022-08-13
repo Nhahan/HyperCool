@@ -10,9 +10,13 @@ namespace Managers
 {
     public class GameManager : MonoBehaviour
     {
+        [SerializeField] private GameObject next;
+        [SerializeField] private GameObject wall;
+        
         public static GameManager I;
         public bool pause;
         public bool gameOver;
+        public bool clear;
         private List<GameObject> enemies = new();
 
         private void Awake()
@@ -58,8 +62,26 @@ namespace Managers
 
             if (GetEnemiesCount() == 0)
             {
-                
+                StartCoroutine(WallToNext());
             }
+        }
+
+        private IEnumerator WallToNext()
+        {
+            var material = wall.GetComponent<MeshRenderer>().material;
+            Debug.Log("[+] " + material.GetColor("_EmissionColor"));
+            var i = 0;
+            while (true)
+            {
+                yield return new WaitForSeconds(0.01f);
+                material.SetColor("_EmissionColor", material.GetColor("_EmissionColor") * 0.975f);
+                i++;
+                if (i == 30) break;
+            }
+            Debug.Log("[-] " + material.GetColor("_EmissionColor"));
+            
+            wall.SetActive(false);
+            next.SetActive(true);
         }
 
         private IEnumerator Pause(bool b)

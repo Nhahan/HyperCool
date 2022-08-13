@@ -883,7 +883,6 @@ MonoBehaviour:
   muzzle: {fileID: 0}
   bullet: {fileID: 0}
   speed: 0.85
-  isDoll: 0
 --- !u!1 &1876896238097059703
 GameObject:
   m_ObjectHideFlags: 0
@@ -1943,7 +1942,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7b52d21bcc5704ab396ac08b294d19be, type: 2}
+  - {fileID: 2100000, guid: df1898efd6f7a46c699ece201eb44705, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2876,7 +2875,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7b52d21bcc5704ab396ac08b294d19be, type: 2}
+  - {fileID: 2100000, guid: df1898efd6f7a46c699ece201eb44705, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3832,15 +3831,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7780044935553086284, guid: e5f5be104ff184e979fe4c12052d88cd, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 1
+      value: 0.9998834
       objectReference: {fileID: 0}
     - target: {fileID: 7780044935553086284, guid: e5f5be104ff184e979fe4c12052d88cd, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7780044935553086284, guid: e5f5be104ff184e979fe4c12052d88cd, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.015271054
       objectReference: {fileID: 0}
     - target: {fileID: 7780044935553086284, guid: e5f5be104ff184e979fe4c12052d88cd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3848,7 +3847,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7780044935553086284, guid: e5f5be104ff184e979fe4c12052d88cd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -1.75
       objectReference: {fileID: 0}
     - target: {fileID: 7780044935553086284, guid: e5f5be104ff184e979fe4c12052d88cd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -3856,7 +3855,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7937467327806393217, guid: e5f5be104ff184e979fe4c12052d88cd, type: 3}
       propertyPath: Separation
-      value: 0.01
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 7937467327806393217, guid: e5f5be104ff184e979fe4c12052d88cd, type: 3}
       propertyPath: DefaultMaterial

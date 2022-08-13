@@ -23,11 +23,13 @@ public class Player : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
-
+    
     private void Update()
     {
+        if (GameManager.I.clear) return;
+
         Pause();
+        
         if (GameManager.I.pause) return;
         
         if (Input.GetMouseButtonDown(0) && isAttacking is 0)

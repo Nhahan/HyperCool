@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Managers;
 using UnityEngine;
 
 public class PlayerWeapon : MonoBehaviour
@@ -26,7 +27,6 @@ public class PlayerWeapon : MonoBehaviour
     {
         if (!Player.I.isAttackAvailable) return;
 
-        Debug.Log(other.tag);
         try
         {
             if (other.CompareTag("Enemy"))
@@ -36,7 +36,6 @@ public class PlayerWeapon : MonoBehaviour
             }
             else if (other.CompareTag("Cuttible"))
             {
-                Debug.Log("??");
                 other.transform.root.GetComponent<CubeEnemy>().SetCuttible();
             }
         }

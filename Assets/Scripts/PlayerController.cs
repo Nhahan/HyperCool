@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
     private float horizontalSpeed;
     
     private bool action;
-
+    
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -25,6 +25,12 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        if (GameManager.I.clear)
+        {
+            rb.velocity = Vector3.zero;
+            return;
+        }
+        
         if (!GameManager.I.gameOver)
         {
             if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1))
