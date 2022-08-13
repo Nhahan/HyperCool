@@ -53,7 +53,7 @@ public class PlayerController : MonoBehaviour
         var x = Mathf.Abs(rb.velocity.x);
         var z = Mathf.Abs(rb.velocity.z);
 
-        var time = (x != 0 || z != 0) ? 1f : 0.2f;
+        var time = (x != 0 || z != 0) ? 1f : 0.15f;
         var lerpTime = (x != 0 || z != 0) ? 0.05f : 0.5f;
 
         time = action ? 1 : time;

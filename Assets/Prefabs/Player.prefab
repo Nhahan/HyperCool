@@ -81,7 +81,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 9028101789124952176}
-  weapon: {fileID: 0}
   isAttacking: 0
   isAttackAvailable: 0
 --- !u!114 &4538385838808679103
@@ -98,7 +97,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   variableJoystick: {fileID: 0}
   movementSpeed: 500
-  testMode: 1
+  testMode: 0
 --- !u!136 &97219812
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -232,8 +231,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.4, y: 0.5, z: 0.5}
-  m_Center: {x: -0.1, y: -0.00000005357816, z: 0.001884837}
+  m_Size: {x: 0.35, y: 0.5, z: 0.5}
+  m_Center: {x: -0.125, y: -0.00000005357816, z: 0.001884837}
 --- !u!65 &3179777832792067355
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -243,10 +242,10 @@ BoxCollider:
   m_GameObject: {fileID: 4538385837531931097}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.35, y: 0.35, z: 0.35}
-  m_Center: {x: -0.1, y: -0.00000005357816, z: 0.001884837}
+  m_Center: {x: -0.125, y: -0.00000005357816, z: 0.001884837}
 --- !u!114 &1358753143324220041
 MonoBehaviour:
   m_ObjectHideFlags: 0

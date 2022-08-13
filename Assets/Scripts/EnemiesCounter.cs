@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using Managers;
 using TMPro;
 using UnityEngine;
@@ -16,6 +13,6 @@ public class EnemiesCounter : MonoBehaviour
 
     private void Update()
     {
-        textMeshProUGUI.text = "Enemies:" + GameManager.I.enemies.Count;
+        textMeshProUGUI.text = "Enemies:" + GameManager.I.GetEnemiesCount();
     }
 }

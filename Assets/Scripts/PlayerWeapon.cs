@@ -25,17 +25,24 @@ public class PlayerWeapon : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (!Player.I.isAttackAvailable) return;
-        
-        if (other.gameObject.layer == LayerMask.NameToLayer("Enemy"))
+
+        Debug.Log(other.tag);
+        try
         {
-            try
+            if (other.CompareTag("Enemy"))
             {
+
                 other.transform.root.GetComponent<Enemy>().SetCuttible();
             }
-            catch
+            else if (other.CompareTag("Cuttible"))
             {
-                // ignored
+                Debug.Log("??");
+                other.transform.root.GetComponent<CubeEnemy>().SetCuttible();
             }
+        }
+        catch
+        {
+            // ignored
         }
     }
 }

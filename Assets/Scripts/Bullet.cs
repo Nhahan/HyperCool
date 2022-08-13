@@ -6,6 +6,7 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     [SerializeField] private new SphereCollider collider;
+    [SerializeField] private bool isMelee;
     
     private Vector3 targetDirection;
 
@@ -26,13 +27,16 @@ public class Bullet : MonoBehaviour
     {
         if (GameManager.I.pause) return;
         
+        Move();
+
+        if (isMelee) return;
+        
         liveTime += Time.deltaTime;
         if (liveTime > 10f)
         {
             Destroy(gameObject);
         }
 
-        Move();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -82,6 +86,8 @@ public class Bullet : MonoBehaviour
 
     private void Move()
     {
+        if (isMelee) return;
+        
         if (isPerfectHit)
         {
             targetDirection = (enemy.transform.position - transform.position + new Vector3(0, 1.65f, 0)).normalized * 3f;

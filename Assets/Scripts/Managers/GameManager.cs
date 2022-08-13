@@ -1,6 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -11,7 +13,7 @@ namespace Managers
         public static GameManager I;
         public bool pause;
         public bool gameOver;
-        public List<GameObject> enemies = new();
+        private List<GameObject> enemies = new();
 
         private void Awake()
         {
@@ -28,6 +30,8 @@ namespace Managers
 
         private void Start()
         {
+            enemies.AddRange(GameObject.FindGameObjectsWithTag("Enemy").ToList().FindAll(
+                gameObject => gameObject.GetComponentInChildren(typeof(Enemy))));
             StartCoroutine(Pause(true));
         }
 
@@ -47,13 +51,26 @@ namespace Managers
 
         public void RemoveEnemyFromList(GameObject enemy)
         {
-            enemies.Remove(enemy);
+            while (enemies.Contains(enemy))
+            {
+                enemies.Remove(enemy);
+            }
+
+            if (GetEnemiesCount() == 0)
+            {
+                
+            }
         }
 
         private IEnumerator Pause(bool b)
         {
-            yield return new WaitForSeconds(0.05f);
+            yield return new WaitForSeconds(0.001f);
             pause = b;
+        }
+
+        public int GetEnemiesCount()
+        {
+            return enemies.Count;
         }
     }
 }
