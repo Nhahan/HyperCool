@@ -5,6 +5,7 @@ namespace Managers
     public class ParticleManager : MonoBehaviour
     {
         [SerializeField] public GameObject hitParticles;
+        [SerializeField] public GameObject fireParticles;
     
         public static ParticleManager I;
 

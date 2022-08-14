@@ -76,6 +76,7 @@ public class PistolEnemy : Enemy
         try
         {
             Instantiate(bullet, muzzle.transform.position, Quaternion.identity).GetComponent<Bullet>().enemy = gameObject;
+            Destroy(Instantiate(ParticleManager.I.fireParticles, muzzle.transform.position, Quaternion.identity), 0.1f);
         }
         catch
         {
