@@ -1,4 +1,4 @@
-using System;
+using System.Collections.Generic;
 using Managers;
 using UnityEngine;
 
@@ -6,6 +6,7 @@ public class DestroyAfter : MonoBehaviour
 {
     [SerializeField] private float destroyAfter; 
     [SerializeField] private bool startAfterDestroy; 
+    [SerializeField] private List<GameObject> setActiveAfter; 
     
     private void Start()
     {
@@ -14,6 +15,7 @@ public class DestroyAfter : MonoBehaviour
 
     private void OnDestroy()
     {
+        setActiveAfter.ForEach(o => o.SetActive(true));
         if (startAfterDestroy) GameManager.I.pause = false;
     }
 }

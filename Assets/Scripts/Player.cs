@@ -63,7 +63,7 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(time / 10 * 3f);
         isAttackAvailable = true;
 
-        yield return new WaitForSeconds(time / 10 * 5f);
+        yield return new WaitForSeconds(time / 10 * 4f);
         isAttacking = 0;
         isAttackAvailable = false;
         animator.SetBool(anim, false);
