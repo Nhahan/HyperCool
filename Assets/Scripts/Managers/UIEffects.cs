@@ -40,7 +40,7 @@ public class UIEffects : MonoBehaviour
             yield return new WaitForSeconds(0.01f);
             if (rect.localScale.x < 1.1) 
             {
-                rect.localScale += new Vector3(0.09f, 0.09f, 0.09f);
+                rect.localScale += new Vector3(0.1f, 0.1f, 0.1f);
             }
             
             if (isUp) {

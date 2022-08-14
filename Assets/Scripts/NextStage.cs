@@ -1,7 +1,7 @@
 using System.Collections;
 using Managers;
-using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class NextStage : MonoBehaviour
@@ -19,11 +19,15 @@ public class NextStage : MonoBehaviour
 
     private IEnumerator EndDim()
     {
+        var i = 0;
         while (true)
         {
             yield return new WaitForSeconds(0.01f);
             endDim.color += new Color(0, 0, 0, 0.01f);
-            if (endDim.color.a == 255) break;
+            i++;
+            if (i > 100) break;
         }
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

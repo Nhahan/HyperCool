@@ -52,9 +52,9 @@ public class Bullet : MonoBehaviour
                 var d = Vector3.Distance(Player.I.transform.position, transform.position);
                 if (d is > 1.65f and < 1.9f)
                 {
+                    UIEffects.I.Perfect();
                     enemy.GetComponent<Enemy>().animator.enabled = false;
-                    // StartCoroutine(EnemyAnimatorEnable());
-                    isPerfectHit = true;
+                    StartCoroutine(IsPerfect());
                 }
                 else if (d > 2.55f)
                 {
@@ -96,10 +96,15 @@ public class Bullet : MonoBehaviour
         transform.position += targetDirection * Time.deltaTime;
     }
 
-    private IEnumerator EnemyAnimatorEnable()
+    private IEnumerator IsPerfect()
     {
-        enemy.GetComponent<Enemy>().animator.enabled = false;
-        yield return new WaitForSeconds(3f);
-        enemy.GetComponent<Enemy>().animator.enabled = true;
+        var i = 0;
+        while (true)
+        {
+            isPerfectHit = true;
+            yield return new WaitForSeconds(0.07f);
+            i++;
+            if (i > 2) break;
+        }
     }
 }

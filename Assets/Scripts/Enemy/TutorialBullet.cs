@@ -51,10 +51,11 @@ public class TutorialBullet : MonoBehaviour
                 if (isHit) return;
                 var d = Vector3.Distance(Player.I.transform.position, transform.position);
                 Debug.Log("Tutorial Bullet d=" + d);
-                if (d > 1.65f && d < 2.25f)
+                if (d > 1.65f && d < 2.1f)
                 {
                     UIEffects.I.Perfect();
-                    isPerfectHit = true;
+                    enemy.GetComponent<Enemy>().animator.enabled = false;
+                    StartCoroutine(IsPerfect());
                 }
                 else if (d > 2.55f)
                 {
@@ -73,7 +74,6 @@ public class TutorialBullet : MonoBehaviour
                 if (isHit)
                 {
                     collider.enabled = true;
-                    Debug.Log("Enemy Hit!");
                     
                     other.transform.root.GetComponent<Enemy>().SetCuttibleByBullet();
                     Destroy(other.gameObject);
@@ -103,10 +103,15 @@ public class TutorialBullet : MonoBehaviour
         }
     }
 
-    private IEnumerator EnemyAnimatorEnable()
+    private IEnumerator IsPerfect()
     {
-        enemy.GetComponent<Enemy>().animator.enabled = false;
-        yield return new WaitForSeconds(3f);
-        enemy.GetComponent<Enemy>().animator.enabled = true;
+        var i = 0;
+        while (true)
+        {
+            isPerfectHit = true;
+            yield return new WaitForSeconds(0.07f);
+            i++;
+            if (i > 2) break;
+        }
     }
 }

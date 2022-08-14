@@ -2956,10 +2956,10 @@ MonoBehaviour:
   skinnedMeshRenderer: {fileID: 8840491424522130161}
   plane: {fileID: 9073751496730038687}
   weapon: {fileID: 1427277748807832728}
-  radius: 12
+  radius: 13.5
   animator: {fileID: 4552978504395695247}
   muzzle: {fileID: 3668335039723099303}
-  bullet: {fileID: 5646935182312360496, guid: 32898786e7d2243139f00db0c39bd37a, type: 3}
+  bullet: {fileID: 5646935182312360496, guid: e67f34887825549d092988c7f8b5d2f7, type: 3}
 --- !u!1 &7208022501659061475
 GameObject:
   m_ObjectHideFlags: 0
@@ -3768,27 +3768,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7780044935553086284, guid: e5f5be104ff184e979fe4c12052d88cd, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 0.06830029
       objectReference: {fileID: 0}
     - target: {fileID: 7780044935553086284, guid: e5f5be104ff184e979fe4c12052d88cd, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 1
+      value: 0.9954611
       objectReference: {fileID: 0}
     - target: {fileID: 7780044935553086284, guid: e5f5be104ff184e979fe4c12052d88cd, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.004536498
       objectReference: {fileID: 0}
     - target: {fileID: 7780044935553086284, guid: e5f5be104ff184e979fe4c12052d88cd, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.06611841
       objectReference: {fileID: 0}
     - target: {fileID: 7780044935553086284, guid: e5f5be104ff184e979fe4c12052d88cd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 180
+      value: 172.15
       objectReference: {fileID: 0}
     - target: {fileID: 7780044935553086284, guid: e5f5be104ff184e979fe4c12052d88cd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 7.6
       objectReference: {fileID: 0}
     - target: {fileID: 7780044935553086284, guid: e5f5be104ff184e979fe4c12052d88cd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
