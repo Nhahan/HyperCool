@@ -22,7 +22,6 @@ public class UISpritesAnimation : MonoBehaviour
         animator = GetComponent<Animator>();
         image = GetComponent<Image>();
         sprites = GetSpritesFromAnimator(animator);
-        Debug.Log(sprites.Count);
     }
 
     private void Update () {

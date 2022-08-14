@@ -25,6 +25,5 @@ public class NextStage : MonoBehaviour
             endDim.color += new Color(0, 0, 0, 0.01f);
             if (endDim.color.a == 255) break;
         }
-        Debug.Log("End");
     }
 }

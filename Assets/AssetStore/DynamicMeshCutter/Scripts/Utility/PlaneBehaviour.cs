@@ -33,7 +33,7 @@ namespace DynamicMeshCutter
             var meshes = MeshCreation.TranslateCreatedObjects(info, cData.CreatedObjects, cData.CreatedTargets, Separation);
             meshes.ForEach(mesh =>
             {
-                Destroy(mesh, 4.5f);
+                Destroy(mesh, 5.5f);
             });
         }
     }

@@ -50,7 +50,7 @@ public class Bullet : MonoBehaviour
             case "PlayerWeapon":
                 if (isHit) return;
                 var d = Vector3.Distance(Player.I.transform.position, transform.position);
-                if (d is > 1.35f and < 1.85f)
+                if (d is > 1.65f and < 1.9f)
                 {
                     enemy.GetComponent<Enemy>().animator.enabled = false;
                     // StartCoroutine(EnemyAnimatorEnable());

@@ -69,7 +69,6 @@ namespace Managers
         private IEnumerator WallToNext()
         {
             var material = wall.GetComponent<MeshRenderer>().material;
-            Debug.Log("[+] " + material.GetColor("_EmissionColor"));
             var i = 0;
             while (true)
             {
@@ -78,8 +77,6 @@ namespace Managers
                 i++;
                 if (i == 30) break;
             }
-            Debug.Log("[-] " + material.GetColor("_EmissionColor"));
-            
             wall.SetActive(false);
             next.SetActive(true);
         }
