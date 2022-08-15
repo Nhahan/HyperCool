@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class PunchEnemy : Enemy
 {
-    [SerializeField] private GameObject muzzle;
-    [SerializeField] private GameObject bullet;
+    [SerializeField] private Bullet bullet;
     [SerializeField] private float speed;
+    
+    private float animatorCooltime;
 
     private void FixedUpdate()
     {
@@ -14,10 +15,10 @@ public class PunchEnemy : Enemy
         if (GameManager.I.gameOver) return;
 
         if (!IsAttacking) return;
-
+        
         try
         {
-            StartCoroutine(SetAnimator());
+            SetAnimator();
         }
         catch
         {
@@ -27,8 +28,24 @@ public class PunchEnemy : Enemy
         Move();
     }
 
+    private void AutoAttack(float d)
+    {
+        if (d < 0.7f)
+        {
+            Debug.Log("AutoAttack, d = "+ d);
+        }
+    }
+
     private void Move()
     {
+        var d = Vector3.Distance(Player.I.transform.position, transform.position);
+        if (d < 1f)
+        {
+            animator.SetBool("IsWalk", false);
+            AutoAttack(d);
+            return;
+        }
+        
         if (animator.GetBool("IsWalk"))
         {
             transform.position =
@@ -41,33 +58,33 @@ public class PunchEnemy : Enemy
         if (isDead) return;
         
         var targetDirection = animator.GetBool("IsWalk") ? 
-            Player.I.transform.position - transform.position + new Vector3(-0.5f, 0, 0) : 
+            Player.I.transform.position - transform.position + new Vector3(0.75f, 0, 0) : 
             Player.I.transform.position - transform.position;
         var newDirection = Vector3.RotateTowards(transform.forward, targetDirection, 1f, 0.0f);
 
         transform.rotation = Quaternion.LookRotation(newDirection);
     }
 
-    private IEnumerator SetAnimator()
+    private void SetAnimator()
     {
-        yield return new WaitForSeconds(1f);
-        if (!animator.GetBool("IsFire"))
+        animatorCooltime += Time.deltaTime;
+        if (animatorCooltime < 0.2725f) return;
+
+        if (Vector3.Distance(Player.I.transform.position, transform.position) < 2.15f)
         {
-            yield break;
+            bullet.SetActive(true);
+            animator.SetBool("IsFire", true);
+            animator.SetBool("IsWalk", false);
+            speed = 0;
+        }
+        else
+        {
+            bullet.SetActive(false);
+            animator.SetBool("IsWalk", true);
+            animator.SetBool("IsFire", false);
+            speed = 1;
         }
 
-        animator.SetBool("IsFire", true);
-
-
-        // var d = Vector3.Distance(Player.I.transform.position, transform.position);
-        // switch (d)
-        // {
-        //     case > 14:
-        //         animator.SetBool("IsWalk", true);
-        //         break;
-        //     case < 10:
-        //         animator.SetBool("IsWalk", false);
-        //         break;
-        // }
+        animatorCooltime = 0;
     }
 }

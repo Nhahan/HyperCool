@@ -1524,10 +1524,11 @@ MonoBehaviour:
   skinnedMeshRenderer: {fileID: 3348490521125831727}
   plane: {fileID: 2971239505655482177}
   weapon: {fileID: 4197834879275876872}
-  radius: 8
+  radius: 10
   animator: {fileID: 7780227481919697489}
   muzzle: {fileID: 7780344446259318263}
   bullet: {fileID: 5646935182312360496, guid: 6e0d33bb7fa8c429e983bb608e387a5b, type: 3}
+  speed: 0.75
 --- !u!1 &4197834879275876872
 GameObject:
   m_ObjectHideFlags: 0

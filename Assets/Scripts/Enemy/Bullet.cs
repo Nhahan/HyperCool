@@ -17,7 +17,10 @@ public class Bullet : MonoBehaviour
 
     private void Start()
     {
-        collider.enabled = false;
+        if (!isMelee)
+        {
+            collider.enabled = false;
+        }
         
         var player = Player.I.transform.position;
         targetDirection = new Vector3(player.x, player.y + 1.725f, player.z) - transform.position;
@@ -45,10 +48,11 @@ public class Bullet : MonoBehaviour
         {
             case "Player":
                 if (isHit) return;
+                Debug.Log("Player Hit");
                 Destroy(gameObject);
                 break;
             case "PlayerWeapon":
-                if (isHit) return;
+                if (isHit || isMelee) return;
                 var d = Vector3.Distance(Player.I.transform.position, transform.position);
                 if (d is > 1.65f and < 1.9f)
                 {
@@ -70,10 +74,12 @@ public class Bullet : MonoBehaviour
                 isHit = true;
                 break;
             case "Enemy":
+                if (isMelee) return;
+                
                 if (isHit)
                 {
                     collider.enabled = true;
-                    Debug.Log("Enemy Hit!");
+                    Debug.Log("Enemy Hit");
                     
                     other.transform.root.GetComponent<Enemy>().SetCuttibleByBullet();
                     Destroy(other.gameObject);
@@ -106,5 +112,10 @@ public class Bullet : MonoBehaviour
             i++;
             if (i > 2) break;
         }
+    }
+
+    public void SetActive(bool b)
+    {
+        gameObject.SetActive(b);
     }
 }
