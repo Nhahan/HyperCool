@@ -35,7 +35,7 @@ public class Player : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && isAttacking is 0)
         {
             isAttacking = 1;
-            StartCoroutine(SetAnimator("IsRightSlash", 0.633f));
+            StartCoroutine(SetAnimator("IsRightSlash", 0.6f));
         } 
         else if (Input.GetMouseButtonDown(1) && isAttacking is 0)
         {

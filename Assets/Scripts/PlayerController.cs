@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour
             if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1))
             {
                 StopCoroutine(ActionRoutine(0.03f));
-                StartCoroutine(ActionRoutine(0.25f));
+                StartCoroutine(ActionRoutine(0.5f));
             }
         }
 
