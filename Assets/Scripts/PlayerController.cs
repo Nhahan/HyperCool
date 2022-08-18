@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour
             if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1))
             {
                 StopCoroutine(ActionRoutine(0.03f));
-                StartCoroutine(ActionRoutine(0.5f));
+                StartCoroutine(ActionRoutine(0.4f));
             }
         }
 
@@ -68,7 +68,7 @@ public class PlayerController : MonoBehaviour
         Time.timeScale = Mathf.Lerp(Time.timeScale, time, lerpTime);
         Time.fixedDeltaTime = Time.timeScale switch
         {
-            < 0.3f => 0.004f,
+            < 0.3f => 0.003f,
             _ => defaultFixedDeltaTime
         };
     }
@@ -78,6 +78,11 @@ public class PlayerController : MonoBehaviour
         action = true;
         yield return new WaitForSeconds(time);
         action = false;
+    }
+
+    public void SetVelocityToZero()
+    {
+        rb.velocity = Vector3.zero;
     }
 }
 

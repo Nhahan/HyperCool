@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class SwipeGuide : MonoBehaviour
 {
     [SerializeField] private List<GameObject> setActiveAfter;
+    [SerializeField] private GameObject guideText;
     [SerializeField] private GameObject dim;
     
     private RectTransform guideRect;
@@ -42,6 +43,7 @@ public class SwipeGuide : MonoBehaviour
 
         if (GameManager.I.GetEnemiesCount() == 0)
         {
+            Destroy(guideText);
             Destroy(gameObject);
         }
     }

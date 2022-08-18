@@ -6,7 +6,9 @@ using UnityEngine;
 
 public class MoveGuide : MonoBehaviour
 {
+    [SerializeField] private PlayerController playerController;
     [SerializeField] private List<GameObject> setActiveAfter;
+    [SerializeField] private GameObject guideText;
     [SerializeField] private GameObject dim;
     
     private RectTransform guideRect;
@@ -29,7 +31,7 @@ public class MoveGuide : MonoBehaviour
     {
         guideAcceleration += Time.deltaTime + 0.1f;
         guideRect.anchoredPosition += new Vector2(0, 100 * Time.deltaTime * guideAcceleration / Time.timeScale);
-        if (guideRect.anchoredPosition.y < 100)
+        if (guideRect.anchoredPosition.y > 50)
         {
             guideRect.anchoredPosition = guideStartPos;
             guideAcceleration = 0;
@@ -42,8 +44,11 @@ public class MoveGuide : MonoBehaviour
             PauseOff();
         }
 
-        if (Vector3.Distance(firstPlayerPos, Player.I.transform.position) > 3f)
+        if (Vector3.Distance(firstPlayerPos, Player.I.transform.position) > 13.5f)
         {
+            GameManager.I.pause = true;
+            playerController.SetVelocityToZero();
+            Destroy(guideText);
             Destroy(gameObject);
         }
     }

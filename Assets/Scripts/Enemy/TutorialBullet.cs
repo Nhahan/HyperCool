@@ -51,7 +51,7 @@ public class TutorialBullet : MonoBehaviour
                 if (isHit) return;
                 var d = Vector3.Distance(Player.I.transform.position, transform.position);
                 Debug.Log("Tutorial Bullet d=" + d);
-                if (d > 1.65f && d < 2.1f)
+                if (d < 3f)
                 {
                     UIEffects.I.Perfect();
                     enemy.GetComponent<Enemy>().animator.enabled = false;

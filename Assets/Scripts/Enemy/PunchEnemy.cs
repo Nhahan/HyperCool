@@ -30,6 +30,7 @@ public class PunchEnemy : Enemy
 
     private void AutoAttack(float d)
     {
+        if (isDead) return;
         if (d < 0.7f)
         {
             Debug.Log("AutoAttack, d = "+ d);
