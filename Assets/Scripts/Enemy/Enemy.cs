@@ -82,6 +82,7 @@ public class Enemy : MonoBehaviour
         if (isDead) return;
         plane.GetComponent<PlaneBehaviour>().Separation = 0.15f;
         
+        Debug.Log("?");
         skinnedMeshRenderer.enabled = false;
         skinnedMeshRenderer.BakeMesh(destructibleMesh, true);
         destructibleMeshRenderer.enabled = true;

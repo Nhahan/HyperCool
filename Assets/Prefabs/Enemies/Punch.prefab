@@ -880,7 +880,7 @@ MonoBehaviour:
   weapon: {fileID: 1371965601}
   radius: 10.5
   animator: {fileID: 5433177914157818157}
-  bullet: {fileID: 1371965601}
+  bullet: {fileID: 1371965605}
   speed: 1
 --- !u!1 &1876896238097059703
 GameObject:
