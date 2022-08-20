@@ -1,19 +1,20 @@
 using System.Collections.Generic;
-using Managers;
 using UnityEngine;
 
 public class PlayerWeapon : MonoBehaviour
 {
-    private List<BoxCollider> boxColliders = new();
+    private PlayerController controller;
+    private readonly List<BoxCollider> boxColliders = new();
 
     private void Start()
     {
+        controller = transform.root.GetComponent<PlayerController>();
         boxColliders.AddRange(GetComponents<BoxCollider>());
     }
 
     private void FixedUpdate()
     {
-        if (Player.I.isAttackAvailable)
+        if (controller.isAttackAvailable)
         {
             boxColliders.ForEach(boxCollider => boxCollider.enabled = true);
         }
@@ -25,7 +26,7 @@ public class PlayerWeapon : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (!Player.I.isAttackAvailable) return;
+        if (!controller.isAttackAvailable) return;
 
         try
         {
