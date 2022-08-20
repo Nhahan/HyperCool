@@ -41,7 +41,11 @@ public class PlayerController : MonoBehaviour
         
         if (!GameManager.I.gameOver)
         {
-            Attack();
+            if (Input.GetMouseButtonDown(0))
+            {
+                downPos = Input.mousePosition;
+                StartCoroutine(Attack());
+            }
         }
 
         TimeScale();
@@ -89,37 +93,25 @@ public class PlayerController : MonoBehaviour
         rb.velocity = Vector3.zero;
     }
 
-    private void Attack()
+    private IEnumerator Attack()
     {
-        float d = 0;
-        dragTime += Time.deltaTime;
-        if (Input.GetMouseButtonDown(0))
-        {
-            dragTime = 0;
-            downPos = Input.mousePosition;
-        }
-
+        yield return new WaitForSeconds(0.005f);
         
-        upPos = Input.mousePosition;
-        d = Vector3.Distance(downPos, upPos);
-        downPos = Vector3.zero;
-
-        if (d > 300f && dragTime < 0.2f)
+        var upPos = Input.mousePosition;
+        var d = Vector3.Distance(downPos, upPos);
+        if (d > 40f)
         {
-            AttackAnimation(upPos.x >= downPos.x);
-            Debug.Log("d=" + d + " / dragTime=" + dragTime);
+            AttackAnimation( downPos.x >= upPos.x);
+            Debug.Log(downPos + " / " +upPos +" / d=" + d);
             StopCoroutine(ActionRoutine(0.03f));
-            StartCoroutine(ActionRoutine(0.55f));
-            d = 0;
+            StartCoroutine(ActionRoutine(0.6f));
         }
     }
 
     private void AttackAnimation(bool isRight)
     {
-        Debug.Log("왜요!");
         if (GameManager.I.clear) return;
-
-        Debug.Log("왜요");
+        Debug.Log("isRight:" + isRight);
         Pause();
         
         if (GameManager.I.pause) return;

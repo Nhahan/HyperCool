@@ -9,7 +9,6 @@ public class MoveGuide : MonoBehaviour
     [SerializeField] private PlayerController playerController;
     [SerializeField] private List<GameObject> setActiveAfter;
     [SerializeField] private GameObject guideText;
-    [SerializeField] private GameObject dim;
     
     private RectTransform guideRect;
     private Vector2 guideStartPos;
@@ -21,6 +20,7 @@ public class MoveGuide : MonoBehaviour
 
     private void Start()
     {
+        PauseOff();
         guideRect = GetComponent<RectTransform>();
         guideStartPos = guideRect.anchoredPosition;
 
@@ -38,12 +38,6 @@ public class MoveGuide : MonoBehaviour
             guideTime++;
         }
 
-        if (guideTime > 1)
-        {
-            DimOff();
-            PauseOff();
-        }
-
         if (Vector3.Distance(firstPlayerPos, Player.I.transform.position) > 13.5f)
         {
             GameManager.I.pause = true;
@@ -56,11 +50,6 @@ public class MoveGuide : MonoBehaviour
     private void OnDestroy()
     {
         setActiveAfter.ForEach(o => o.SetActive(true));
-    }
-
-    private void DimOff()
-    {
-        Destroy(dim);
     }
 
     private void PauseOff()
