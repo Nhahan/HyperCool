@@ -1,0 +1,5162 @@
+fileFormatVersion: 2
+guid: 0cc732aae8cda4ca3859139fe2be5e48
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DyingGlitchSprites_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11692
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5546aaef76257474e87d7b39b011c1d8
+      internalID: 179437051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_1
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 11692
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d807877ccd4417489cc3413c3cd92b
+      internalID: -344916675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_2
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 11692
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ad38a0c1aa74a34b8b3b96c767c806
+      internalID: 515266665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_3
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 11692
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266315933c751462caff1c28ab1f1101
+      internalID: 208933135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_4
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 11692
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82dd610cc01c54540a4df7f641f1aa5f
+      internalID: 1817619088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_5
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 11692
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09d13dbd22a9483fb5849b0e3bc0013
+      internalID: -169927503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11376
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9dfacfcbec94604aa97c7ddf739371
+      internalID: 1841051107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_7
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 11376
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c9b2896425b4e3da3edf25375f8a8b
+      internalID: -1746410287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_8
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 11376
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d019329ec699a4258af0ad84f5a7e61d
+      internalID: 2025515082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_9
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 11376
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9043e6f20f74b3bb4bf17e3ce4f553
+      internalID: -443124420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_10
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 11376
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b826a7b0ebcdb4f6cb2543e021c63bdd
+      internalID: -260096289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_11
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 11376
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eefe28232d1b439a927e0f1f2468cf7
+      internalID: 1837255414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11060
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f638a7228f3dc483cb20141724755eb8
+      internalID: 2111144965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_13
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 11060
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f19d9329b1f64374893e1c2961e37ff
+      internalID: 1737605076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_14
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 11060
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acaf6b361d7a9430588d9c67175a857b
+      internalID: -1532703045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_15
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 11060
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92dc51ad82da4702b18903a79c33c35
+      internalID: -1925734993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_16
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 11060
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd71a8dd5130242fbbdee7880be82a03
+      internalID: -1858432767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_17
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 11060
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cb03f8df1344fe7a10ee121656d5bf
+      internalID: -26363608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10744
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1eb7aa01cee4da38713e805e546a58
+      internalID: -2116516126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_19
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 10744
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf406a49ee93433d80e7673e2c97bb3
+      internalID: -1062675475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_20
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 10744
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b62e97463c84fe28f05d6d04c1119d
+      internalID: 977085614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_21
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 10744
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9e18fa9b5304f04a5e9eb7da4615d9
+      internalID: 673669625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_22
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 10744
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c577b97204664685b2ae9538a9260b1
+      internalID: 821298584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_23
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 10744
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97441aad4957344829a0eb5f89585244
+      internalID: 128881339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10428
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec8ad93fafd845d58833928081548a7
+      internalID: -473956283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_25
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 10428
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df5a002a2ca14f1ca7f78e00fe3623f
+      internalID: 1171555276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_26
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 10428
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005c8206da76c45fa870cbd8cfc12c25
+      internalID: 1682594715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_27
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 10428
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d449b81b18dc4e5ab2d1934335600cf
+      internalID: -851516340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_28
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 10428
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e35a6b0bbf4488c847426b575519c7
+      internalID: 672955251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_29
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 10428
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5f7b3bcf490428fbf16f0e11a357e1
+      internalID: 1385964544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10112
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e7ce92829f74de78bcdbd9e8d52c90
+      internalID: -876581080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_31
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 10112
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70508c6bca9f44e7dbd4ed52aef4d1f5
+      internalID: -704390828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_32
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 10112
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d60d60729b748a28ecb667a23b5d35
+      internalID: -1120977847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_33
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 10112
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb52514edbda43d59bb68678db9f4fe
+      internalID: -333866924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_34
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 10112
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59044f427fc74d08b466a5f1e84f27a
+      internalID: 1233510890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_35
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 10112
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824d2b44c96524de882204bba24a32cd
+      internalID: -720206410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9796
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049cecf8662b049959068bedfc3c850b
+      internalID: 1667074416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_37
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 9796
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a4ceac7bab0456db958ab06037bea2
+      internalID: 8737412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_38
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 9796
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a679f983a5f24a9dbe551519d38259b
+      internalID: -866718563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_39
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 9796
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f92013d513114295ab97fc57a7ca1fe
+      internalID: 1899090393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_40
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 9796
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feaf93bc8ed5d4357877903d0c719cd7
+      internalID: -107422744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_41
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 9796
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f53af7c97c045c88eb4cbcdd5a088c
+      internalID: 1580534621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9480
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2421cc2df1504e72a30f8564445c49f
+      internalID: 1779986809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_43
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 9480
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae8f2bc8b0b24a70b07f8f5823fd32c
+      internalID: 160124623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_44
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 9480
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8399e20ea8b3a4954a7defea911b7eb0
+      internalID: -1258277585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_45
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 9480
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc0ae3c8aab94e88bce85423d36b87b
+      internalID: -486462183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_46
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 9480
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5809617a058444fa26fd11be776c95
+      internalID: 1194781639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_47
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 9480
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c87738fdf4d4fcab70ebd4d8ce4298
+      internalID: 1470390124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9164
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb7c22b6d6894e21b106ab0e5b83397
+      internalID: 411980565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_49
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 9164
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd9f41e8436f4a36b57eda22846a777
+      internalID: 920860035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_50
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 9164
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a365b957ef61435ea06d118ed560ac5
+      internalID: 1125014346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_51
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 9164
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f33668f6bb742d085da3a1e2cc3557
+      internalID: 803437959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_52
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 9164
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15bbc0d606a4643a28fbf30dad88a904
+      internalID: -1900548027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_53
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 9164
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0407f73cafb264c23a004071765d97d1
+      internalID: 979765626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8848
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0c29e5cf34f432ca7d7d04bfe0ed30
+      internalID: -2038646429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_55
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 8848
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3171314130f4988893954ad9dc86c9
+      internalID: -537629984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_56
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 8848
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5079ad3fae3ad436f992a31cc82c10f2
+      internalID: -1335244036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_57
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 8848
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2417de0c1414228b07a6850828cbd2
+      internalID: -1467152469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_58
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 8848
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7fc493b4eff64b28b59b52740aa53ad
+      internalID: -1245613783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_59
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 8848
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd2f2877e7ce45ed9fff6153d1eade5
+      internalID: 1040470247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8532
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab763519b4bd941ce8d9565a8a5a1db5
+      internalID: 786974919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_61
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 8532
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da0fdf6c189445608acdfe12b4e64d1
+      internalID: -1093467459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_62
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 8532
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c962fed425d5c4e3998c695c0d961aa2
+      internalID: 1659347043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_63
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 8532
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deeb54d22c1a348e1abd7baf085e936b
+      internalID: 635878806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_64
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 8532
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6d9021444c94289be7d343e941e1f9
+      internalID: -1508801115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_65
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 8532
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ae118423d114f6098287922b87e71b
+      internalID: 35260427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8216
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3915c1716f5ab409587bdaf89dc52c06
+      internalID: -1118109263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_67
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 8216
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b52bd952c038480a8b6c1c633127d66
+      internalID: -1810399296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_68
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 8216
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094d333ffa7e7489caef77b8dc43ce69
+      internalID: -528428514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_69
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 8216
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d75b691bfbf448caa32c915e85a655c
+      internalID: 14770753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_70
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 8216
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5e096c386b348bfaa4646a6640f0dc
+      internalID: 65130247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_71
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 8216
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cf12af8946e441e9fadb3efd1f1e29
+      internalID: 866354045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7900
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b644782f0682f46048f53d4f5f0e8381
+      internalID: 1803505646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_73
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 7900
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a95704570a7468abc09183ada50fcf
+      internalID: 18074389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_74
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 7900
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9f290071e1841ecb1c3cd621a67876
+      internalID: -1828097588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_75
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 7900
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4131eb74356cf4c298cdc968fd97ebb0
+      internalID: 286859301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_76
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 7900
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb848a19ef4614ee9b2644b5f9241f80
+      internalID: -1961139825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_77
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 7900
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2209df00442845aaa71e93b645e69e1
+      internalID: 1464078422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7584
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb7d9e545708490eb637c9b2052d00a
+      internalID: 357868590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_79
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 7584
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94874f41c1e84b03b2ceb254559a4bf
+      internalID: 397977760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_80
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 7584
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1101859aa087e4ca2a6a6eee25b03ce0
+      internalID: -1724332953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_81
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 7584
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c48a2cb0fcf406e81ae684f6eb7a8c
+      internalID: 1986384779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_82
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 7584
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe45f26312dbd46dfb15af6659a9eb27
+      internalID: -847760140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_83
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 7584
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4413117b143f44849c4ecc3c152cc9f
+      internalID: -1762156070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7268
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f5fededf55648b285e1947d6c07aec
+      internalID: -1594025217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_85
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 7268
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb1af321a6124d9f8b8c1f3667406bb
+      internalID: -32892504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_86
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 7268
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58bb55faeebe46bd803999471bbc1b1
+      internalID: 8489573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_87
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 7268
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03baec2cfe0ec4f53b9adc2b15eaf786
+      internalID: 1450522097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_88
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 7268
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb4d3c06358041289290746d1a66e37
+      internalID: 1180029121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_89
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 7268
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c711a2811751a4b7a91af8d7dfd05c02
+      internalID: -1475169702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6952
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb85f465182b24227a675105c98ed915
+      internalID: -1419294806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_91
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 6952
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7087a5856d124f17a3dce0cd6d00297
+      internalID: 707687176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_92
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 6952
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf6319fb87394b679b735ccb46530c7
+      internalID: 1556933421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_93
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 6952
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b31c4153794c4430896d54b3f68e4bb
+      internalID: -354864112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_94
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 6952
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd346bd35251b4c7d9d3333f7047e985
+      internalID: 390917284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_95
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 6952
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d1780c34b95426d83cbacf2200cf0b
+      internalID: -542693036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6636
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7148c8aa5cecf4e28a5918159f0b1765
+      internalID: 1765450463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_97
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 6636
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da07ca091d0094599841b0e3948cde8d
+      internalID: 1418992308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_98
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 6636
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22b5f49e7fba42559f743a8ab76e4fb
+      internalID: 803104479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_99
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 6636
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7184c2a6a6c2349f283924fa8503eb32
+      internalID: 37225051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_100
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 6636
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43ccdf74cccf401ebc065ea98470609
+      internalID: -2136077267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_101
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 6636
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4552af556e95744b3b11693ba8cacc00
+      internalID: 1843170559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6320
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd653bfe60da4926a4fbde987b2746c
+      internalID: 683473963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_103
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 6320
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3b739c702674848b1b564073117644
+      internalID: 1422672867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_104
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 6320
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df63335384bba406f8aa90ecd352d88f
+      internalID: 147451799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_105
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 6320
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2689328df344c4a861f8b5e083b41c
+      internalID: 650729521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_106
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 6320
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019d577b9ab7e4732b027217ca9f5877
+      internalID: -466509561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_107
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 6320
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5113fb3159934f2791a41b87eeb95c6
+      internalID: -974300821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6004
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c62f30775db4f7394432181aa240e5
+      internalID: 858237431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_109
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 6004
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58fb977e976643eba0c5bc74ebd8165
+      internalID: 832085705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_110
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 6004
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6c87258977b41a6a37fc0b8f5fe3b9
+      internalID: -2124522539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_111
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 6004
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e306fdb45dcc4b37a041c9a2f95756d
+      internalID: 1352521801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_112
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 6004
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe01dfdf0d39433a93b230c25e51093
+      internalID: 675262978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_113
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 6004
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcd78d40307a440c9dcb9d161573e09
+      internalID: -436174639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_114
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5688
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc2aa01e1a1c4790a16508455dfa107
+      internalID: -1407355756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_115
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 5688
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358997d9a623d470c83a3653da5d3fdd
+      internalID: -1411267428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_116
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 5688
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1acca40c4c24a34813461d79106c8b
+      internalID: -370770545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_117
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 5688
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1ddedffe58a49c68bb5a63fad689d0
+      internalID: 1926420753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_118
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 5688
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e5936ad216f4fdaad90afa50829938
+      internalID: 1653880192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_119
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 5688
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579ce78417f6c4e9482a7fc95940c6fd
+      internalID: 994334497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5372
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581dd154cd9654effbc456966327ff3f
+      internalID: -1955007944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_121
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 5372
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccdee95944a2f4e6b80a1878edebf4cc
+      internalID: 1464853321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_122
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 5372
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce482e7631b7040919bc4640cfa4717e
+      internalID: -2096555402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_123
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 5372
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3b3d8911a6e420f840b456eea60b00
+      internalID: 1502411936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_124
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 5372
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b66cb6ea40204c8380b4dbcecb9d2dc
+      internalID: -1446677131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_125
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 5372
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8908083fa292f4271a09c198ea7bf74b
+      internalID: -516079263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5056
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc94ee03042954446b413870ed12bb4b
+      internalID: 1145654959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_127
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 5056
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9820958442dc7441e97e439bbef8ddf4
+      internalID: -1207778228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_128
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 5056
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5151d55d5461743bf82d02203e27f09d
+      internalID: -24370260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_129
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 5056
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf2be08fb87e4a9594a0664d661a1a8
+      internalID: 487515287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_130
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 5056
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f3aa85d77284422935fcbf4122b27e
+      internalID: -60962091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_131
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 5056
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7d6af26a20b4a5ca9f4b77d110fbec
+      internalID: -1618107167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4740
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1c7e1b1d1744749ba773baa8a56799
+      internalID: -14359941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_133
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 4740
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb82c5fc12af4148900a7e7372ed5f1
+      internalID: 183555392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_134
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4740
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4913ba0ad1db24e7ba4e57736353257b
+      internalID: 155840544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_135
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4740
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63cf0a4c380a44ceb8b7788bbfe180f
+      internalID: -601058979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_136
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4740
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922e70ac9d2c24827ade363fa16c143f
+      internalID: 1191937445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_137
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4740
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd02af89765314af7922c0432a778253
+      internalID: 2067842357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_138
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4424
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e4462d1703e4191bb46263b74081b3
+      internalID: -1427710491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_139
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 4424
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddfd3b5534db04dde9e43983c4a04d8c
+      internalID: 1992258416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_140
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4424
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4870b2b5cb16444e89738fd7b37afa57
+      internalID: -1348756981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_141
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4424
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9dcb1e92f504f7ea5c1800c9261f51
+      internalID: -1271228127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_142
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4424
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363ca6841d07e42d19eba5295d7db048
+      internalID: -1015281706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_143
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4424
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68375c1eb893453a8c921d90dd629e4
+      internalID: 582802717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4108
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02227ea3907d34e9a95aef0db92599d5
+      internalID: 1806301784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_145
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 4108
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c827295cc2b4711a06d88af318a5b8
+      internalID: -1121950376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_146
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4108
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd6e36b38364434e8405f0b5693819a
+      internalID: -1017094286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_147
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4108
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd12c1b90c0bc4d14babf91515c785c0
+      internalID: 1736435510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_148
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4108
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0211de05bd248c1bd137f9be3f6965
+      internalID: 59432869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_149
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4108
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c39b3cb96714dd4ab0bc0149459719
+      internalID: -1446781588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3792
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e6d6828d2dc4af898888779fe10ffa
+      internalID: -643226772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_151
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 3792
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5499d158a55af4c6d95fd9ce174932ca
+      internalID: -893408021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_152
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3792
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291f09c1b57fb470294d66ad6034873b
+      internalID: -942504923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_153
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3792
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1126e14a432854a00992a35031def856
+      internalID: -106779374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_154
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3792
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18720b129e9248d182fd489f1d990cf
+      internalID: -194232110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_155
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3792
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994f4d48e33304465930013970515d9b
+      internalID: -1672194779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3476
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5021a33e181eb464582cb0ce16f54ba6
+      internalID: 1904652768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_157
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 3476
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0efd70a3dfb4d98859d1531a047b5d
+      internalID: -992855043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_158
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3476
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f694bcc4d58b8434ebcf456538de0e85
+      internalID: 392109947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_159
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3476
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e862a3beac83243c8a68e944dca2eeaa
+      internalID: 1571345369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_160
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3476
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc32c197710594bb4b85130783330a3f
+      internalID: 638742279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_161
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3476
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f039ad38bfcea461d8e16e1964aef061
+      internalID: -453946089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_162
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3160
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41784af99e76240109f7bdccd6d27faf
+      internalID: -1000670040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_163
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 3160
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552c2a7ebfd294a30ba3d4fee7760dd5
+      internalID: -572402156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_164
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3160
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577233de2fe6f4b27a4e1503da025210
+      internalID: 779294509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_165
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3160
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d020f9fd87a494714801ce7848344807
+      internalID: 904294465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_166
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3160
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c94d68d70ba4e759b1a5685b0ac08b
+      internalID: -1013031536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_167
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3160
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f168b69dfe26d4e7d9f512b80db9fb89
+      internalID: 554360141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2844
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9732f6a4fa76e45f0b0b55f685d82da5
+      internalID: -2111586094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_169
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2844
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5e5d92c21ed4306b352d837092b912
+      internalID: -1069469578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_170
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2844
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc0650e8d19443b2892aaa20e91e1db
+      internalID: 1119831575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_171
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2844
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f453b4735b6574c7eb2e6dd2a216fef2
+      internalID: -1808296150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_172
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2844
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b595cb9c0c154667aa0c3005c4a43ed
+      internalID: 2017040329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_173
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2844
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec8eb5c479c941b98477ad1e66f4d88
+      internalID: -1030766395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_174
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2528
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1298142977364fcea88ffece9775709
+      internalID: -771755576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_175
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2528
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b4e0853f051469c85a6cf1dd785ec1
+      internalID: 681623608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_176
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2528
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb060cd7654034161bbc68b57d4730a6
+      internalID: -2132689446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_177
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2528
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46d4ffcb910a449ba4da312ea9ac5dd
+      internalID: -194710899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_178
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2528
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941d88b8545ff4b3f8a86d2df2bc83b8
+      internalID: 730711196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_179
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2528
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5cf911d8f2449afaf94a9112f5c942
+      internalID: 1629723790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2212
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fb31944415e4e4385532a6c6eeacf4
+      internalID: 1025400675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_181
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2212
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6154bb1cc4a004778810b2dffa0f4727
+      internalID: 1461877909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_182
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2212
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca7e8f3d3dbe4577a1039a3de76c121
+      internalID: -1936890797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_183
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2212
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa51b85782b58499baeff7a4c8040d10
+      internalID: -480825959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_184
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2212
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec9a873a70354685979eeccd354f13a
+      internalID: -1946645204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_185
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2212
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e505d1202e6234426aa2caf7c3f4a0ce
+      internalID: 1735346166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_186
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1896
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c50a6e95d67349b9abf291fdcdf561e
+      internalID: 255235064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_187
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1896
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92ffc56b522a47f78f696d3f9da579f
+      internalID: 2016580931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_188
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1896
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383d91210d83a420193b3e81fa615266
+      internalID: -1340350851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_189
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1896
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0af47778c0a4911bf221a3b4299837
+      internalID: 936140647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_190
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1896
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae30bbaced1a24e72880d99bab5f0895
+      internalID: 1936205964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_191
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1896
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047b02d0978a147238e99a051fad1fbf
+      internalID: -210803105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_192
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1580
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f899e603295c84779ba66d3c8e470791
+      internalID: 1262064956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_193
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1580
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf7242cff2184d2880eacd15bbab051
+      internalID: 358404861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_194
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1580
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6be9622ebe114220ba45d1e644e5a94
+      internalID: 1580864143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_195
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1580
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06539b5895bfd43ecbb216bb58ea6336
+      internalID: -1447033984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_196
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1580
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a37b8d349044468a41b4f3f17f64f9
+      internalID: -513601449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_197
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1580
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aaf5bb080dab45b19f73dca15fbe2a5
+      internalID: -439350130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_198
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1264
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbecfbd8d5d0c4822ba1e10c82d95e45
+      internalID: -1136680768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_199
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1264
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7ba59caad7943be81d3369f9c1405f
+      internalID: -2001674297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_200
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1264
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9b00b3c28d04aa9bb671beac86e7e0
+      internalID: -908863225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_201
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1264
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aafe41f5645248328e19b3281a1cc8e
+      internalID: 1154896959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_202
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1264
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6f0b73f7e07497e84e545496603692
+      internalID: -129388234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_203
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1264
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aadec5f431f324b25be1947f126decfc
+      internalID: -1074466039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_204
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 948
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3739debed4b34ced9fa3058056c19f2
+      internalID: 232927646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_205
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 948
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f75c539e5c3498186d4713d74398a8
+      internalID: 608052174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_206
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 948
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5614702b28046d0a9c602203cc3249
+      internalID: 1066480857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_207
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 948
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce87cc36fd7249a2b11b706c2aa6b86
+      internalID: -2017682103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_208
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 948
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe4848d77053467e9f25810007d4b6e
+      internalID: 1764874535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_209
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 948
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b62fea9a1154459f808cbd572a6c9bc
+      internalID: 1637776500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_210
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 632
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f90abe7626a547d6920c46f8fb38a65
+      internalID: 963830298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_211
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 632
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20119a1f4998b49c0bb754a93202060b
+      internalID: -1080905235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_212
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 632
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ccde29e2dfbf4255849570edbafe3ca
+      internalID: 1992186932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_213
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 632
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2aafbbc4de36419bae23c7b00194b6c
+      internalID: 129386375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_214
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 632
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9a31536f2c94fc09a26fedfa0731da
+      internalID: -781140230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_215
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 632
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ca88e3fe36a4db28d8d8e660d5d9e7
+      internalID: 850801933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_216
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 316
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e2e7fc4b2f44bea9cdbb431b6212d9
+      internalID: 568401791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_217
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 316
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342c3baf0808145009382565c20cfda2
+      internalID: 1544398211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_218
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 316
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194f5f4b2e99e45b1bc266f794968f93
+      internalID: -2144950189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_219
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 316
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a7d6546817e4760af18096f9206493
+      internalID: 429008658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_220
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 316
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e89cc5b26cf042dba633f43efede23e
+      internalID: 41124732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_221
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 316
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f321172b4cf541b8a0f4b5b24d9342f
+      internalID: -2041486841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_222
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8697690758d45f7b3136cf1f9a2184
+      internalID: -16817439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_223
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaac40a949f404c289c6dbfd966ac5ed
+      internalID: 1155827079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_224
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b236ea3a0e0de497988864cfbcf31d6e
+      internalID: 1926554953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_225
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51557dc7ed95544cf992513fa8593f27
+      internalID: 1369198566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_226
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5128d13685dd148fcb02724689862789
+      internalID: 1540874093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DyingGlitchSprites_227
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da284fa87d244edcbefc81458968b7f
+      internalID: 2004731466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3316646901eaa46fba04d7a0a94f3e21
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DyingGlitchSprites_55: -537629984
+      DyingGlitchSprites_28: 672955251
+      DyingGlitchSprites_1: -344916675
+      DyingGlitchSprites_173: -1030766395
+      DyingGlitchSprites_213: 129386375
+      DyingGlitchSprites_165: 904294465
+      DyingGlitchSprites_51: 803437959
+      DyingGlitchSprites_102: 683473963
+      DyingGlitchSprites_49: 920860035
+      DyingGlitchSprites_75: 286859301
+      DyingGlitchSprites_96: 1765450463
+      DyingGlitchSprites_129: 487515287
+      DyingGlitchSprites_84: -1594025217
+      DyingGlitchSprites_199: -2001674297
+      DyingGlitchSprites_190: 1936205964
+      DyingGlitchSprites_215: 850801933
+      DyingGlitchSprites_76: -1961139825
+      DyingGlitchSprites_206: 1066480857
+      DyingGlitchSprites_155: -1672194779
+      DyingGlitchSprites_227: 2004731466
+      DyingGlitchSprites_15: -1925734993
+      DyingGlitchSprites_113: -436174639
+      DyingGlitchSprites_19: -1062675475
+      DyingGlitchSprites_121: 1464853321
+      DyingGlitchSprites_91: 707687176
+      DyingGlitchSprites_108: 858237431
+      DyingGlitchSprites_89: -1475169702
+      DyingGlitchSprites_104: 147451799
+      DyingGlitchSprites_225: 1369198566
+      DyingGlitchSprites_7: -1746410287
+      DyingGlitchSprites_11: 1837255414
+      DyingGlitchSprites_68: -528428514
+      DyingGlitchSprites_33: -333866924
+      DyingGlitchSprites_183: -480825959
+      DyingGlitchSprites_205: 608052174
+      DyingGlitchSprites_150: -643226772
+      DyingGlitchSprites_53: 979765626
+      DyingGlitchSprites_38: -866718563
+      DyingGlitchSprites_124: -1446677131
+      DyingGlitchSprites_134: 155840544
+      DyingGlitchSprites_25: 1171555276
+      DyingGlitchSprites_118: 1653880192
+      DyingGlitchSprites_172: 2017040329
+      DyingGlitchSprites_216: 568401791
+      DyingGlitchSprites_176: -2132689446
+      DyingGlitchSprites_16: -1858432767
+      DyingGlitchSprites_170: 1119831575
+      DyingGlitchSprites_200: -908863225
+      DyingGlitchSprites_50: 1125014346
+      DyingGlitchSprites_153: -106779374
+      DyingGlitchSprites_204: 232927646
+      DyingGlitchSprites_62: 1659347043
+      DyingGlitchSprites_122: -2096555402
+      DyingGlitchSprites_92: 1556933421
+      DyingGlitchSprites_185: 1735346166
+      DyingGlitchSprites_224: 1926554953
+      DyingGlitchSprites_58: -1245613783
+      DyingGlitchSprites_207: -2017682103
+      DyingGlitchSprites_220: 41124732
+      DyingGlitchSprites_146: -1017094286
+      DyingGlitchSprites_159: 1571345369
+      DyingGlitchSprites_116: -370770545
+      DyingGlitchSprites_138: -1427710491
+      DyingGlitchSprites_144: 1806301784
+      DyingGlitchSprites_31: -704390828
+      DyingGlitchSprites_32: -1120977847
+      DyingGlitchSprites_36: 1667074416
+      DyingGlitchSprites_22: 821298584
+      DyingGlitchSprites_56: -1335244036
+      DyingGlitchSprites_88: 1180029121
+      DyingGlitchSprites_105: 650729521
+      DyingGlitchSprites_110: -2124522539
+      DyingGlitchSprites_128: -24370260
+      DyingGlitchSprites_85: -32892504
+      DyingGlitchSprites_209: 1637776500
+      DyingGlitchSprites_81: 1986384779
+      DyingGlitchSprites_24: -473956283
+      DyingGlitchSprites_21: 673669625
+      DyingGlitchSprites_47: 1470390124
+      DyingGlitchSprites_208: 1764874535
+      DyingGlitchSprites_80: -1724332953
+      DyingGlitchSprites_135: -601058979
+      DyingGlitchSprites_154: -194232110
+      DyingGlitchSprites_171: -1808296150
+      DyingGlitchSprites_181: 1461877909
+      DyingGlitchSprites_99: 37225051
+      DyingGlitchSprites_73: 18074389
+      DyingGlitchSprites_60: 786974919
+      DyingGlitchSprites_158: 392109947
+      DyingGlitchSprites_12: 2111144965
+      DyingGlitchSprites_87: 1450522097
+      DyingGlitchSprites_160: 638742279
+      DyingGlitchSprites_210: 963830298
+      DyingGlitchSprites_125: -516079263
+      DyingGlitchSprites_82: -847760140
+      DyingGlitchSprites_123: 1502411936
+      DyingGlitchSprites_23: 128881339
+      DyingGlitchSprites_120: -1955007944
+      DyingGlitchSprites_59: 1040470247
+      DyingGlitchSprites_9: -443124420
+      DyingGlitchSprites_143: 582802717
+      DyingGlitchSprites_65: 35260427
+      DyingGlitchSprites_3: 208933135
+      DyingGlitchSprites_94: 390917284
+      DyingGlitchSprites_174: -771755576
+      DyingGlitchSprites_86: 8489573
+      DyingGlitchSprites_132: -14359941
+      DyingGlitchSprites_95: -542693036
+      DyingGlitchSprites_42: 1779986809
+      DyingGlitchSprites_79: 397977760
+      DyingGlitchSprites_61: -1093467459
+      DyingGlitchSprites_178: 730711196
+      DyingGlitchSprites_5: -169927503
+      DyingGlitchSprites_196: -513601449
+      DyingGlitchSprites_141: -1271228127
+      DyingGlitchSprites_147: 1736435510
+      DyingGlitchSprites_226: 1540874093
+      DyingGlitchSprites_130: -60962091
+      DyingGlitchSprites_101: 1843170559
+      DyingGlitchSprites_214: -781140230
+      DyingGlitchSprites_217: 1544398211
+      DyingGlitchSprites_131: -1618107167
+      DyingGlitchSprites_192: 1262064956
+      DyingGlitchSprites_117: 1926420753
+      DyingGlitchSprites_93: -354864112
+      DyingGlitchSprites_175: 681623608
+      DyingGlitchSprites_66: -1118109263
+      DyingGlitchSprites_194: 1580864143
+      DyingGlitchSprites_8: 2025515082
+      DyingGlitchSprites_197: -439350130
+      DyingGlitchSprites_69: 14770753
+      DyingGlitchSprites_148: 59432869
+      DyingGlitchSprites_126: 1145654959
+      DyingGlitchSprites_72: 1803505646
+      DyingGlitchSprites_71: 866354045
+      DyingGlitchSprites_179: 1629723790
+      DyingGlitchSprites_182: -1936890797
+      DyingGlitchSprites_211: -1080905235
+      DyingGlitchSprites_151: -893408021
+      DyingGlitchSprites_43: 160124623
+      DyingGlitchSprites_40: -107422744
+      DyingGlitchSprites_52: -1900548027
+      DyingGlitchSprites_57: -1467152469
+      DyingGlitchSprites_74: -1828097588
+      DyingGlitchSprites_203: -1074466039
+      DyingGlitchSprites_70: 65130247
+      DyingGlitchSprites_64: -1508801115
+      DyingGlitchSprites_54: -2038646429
+      DyingGlitchSprites_13: 1737605076
+      DyingGlitchSprites_161: -453946089
+      DyingGlitchSprites_139: 1992258416
+      DyingGlitchSprites_201: 1154896959
+      DyingGlitchSprites_90: -1419294806
+      DyingGlitchSprites_37: 8737412
+      DyingGlitchSprites_103: 1422672867
+      DyingGlitchSprites_6: 1841051107
+      DyingGlitchSprites_221: -2041486841
+      DyingGlitchSprites_14: -1532703045
+      DyingGlitchSprites_164: 779294509
+      DyingGlitchSprites_189: 936140647
+      DyingGlitchSprites_187: 2016580931
+      DyingGlitchSprites_119: 994334497
+      DyingGlitchSprites_177: -194710899
+      DyingGlitchSprites_180: 1025400675
+      DyingGlitchSprites_26: 1682594715
+      DyingGlitchSprites_137: 2067842357
+      DyingGlitchSprites_98: 803104479
+      DyingGlitchSprites_184: -1946645204
+      DyingGlitchSprites_45: -486462183
+      DyingGlitchSprites_34: 1233510890
+      DyingGlitchSprites_163: -572402156
+      DyingGlitchSprites_44: -1258277585
+      DyingGlitchSprites_112: 675262978
+      DyingGlitchSprites_145: -1121950376
+      DyingGlitchSprites_152: -942504923
+      DyingGlitchSprites_149: -1446781588
+      DyingGlitchSprites_218: -2144950189
+      DyingGlitchSprites_29: 1385964544
+      DyingGlitchSprites_202: -129388234
+      DyingGlitchSprites_2: 515266665
+      DyingGlitchSprites_77: 1464078422
+      DyingGlitchSprites_219: 429008658
+      DyingGlitchSprites_30: -876581080
+      DyingGlitchSprites_48: 411980565
+      DyingGlitchSprites_17: -26363608
+      DyingGlitchSprites_109: 832085705
+      DyingGlitchSprites_83: -1762156070
+      DyingGlitchSprites_114: -1407355756
+      DyingGlitchSprites_198: -1136680768
+      DyingGlitchSprites_115: -1411267428
+      DyingGlitchSprites_111: 1352521801
+      DyingGlitchSprites_166: -1013031536
+      DyingGlitchSprites_27: -851516340
+      DyingGlitchSprites_140: -1348756981
+      DyingGlitchSprites_169: -1069469578
+      DyingGlitchSprites_142: -1015281706
+      DyingGlitchSprites_168: -2111586094
+      DyingGlitchSprites_20: 977085614
+      DyingGlitchSprites_193: 358404861
+      DyingGlitchSprites_156: 1904652768
+      DyingGlitchSprites_35: -720206410
+      DyingGlitchSprites_41: 1580534621
+      DyingGlitchSprites_188: -1340350851
+      DyingGlitchSprites_136: 1191937445
+      DyingGlitchSprites_133: 183555392
+      DyingGlitchSprites_10: -260096289
+      DyingGlitchSprites_0: 179437051
+      DyingGlitchSprites_127: -1207778228
+      DyingGlitchSprites_39: 1899090393
+      DyingGlitchSprites_100: -2136077267
+      DyingGlitchSprites_63: 635878806
+      DyingGlitchSprites_67: -1810399296
+      DyingGlitchSprites_186: 255235064
+      DyingGlitchSprites_162: -1000670040
+      DyingGlitchSprites_78: 357868590
+      DyingGlitchSprites_97: 1418992308
+      DyingGlitchSprites_18: -2116516126
+      DyingGlitchSprites_195: -1447033984
+      DyingGlitchSprites_212: 1992186932
+      DyingGlitchSprites_223: 1155827079
+      DyingGlitchSprites_4: 1817619088
+      DyingGlitchSprites_222: -16817439
+      DyingGlitchSprites_157: -992855043
+      DyingGlitchSprites_191: -210803105
+      DyingGlitchSprites_106: -466509561
+      DyingGlitchSprites_167: 554360141
+      DyingGlitchSprites_46: 1194781639
+      DyingGlitchSprites_107: -974300821
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

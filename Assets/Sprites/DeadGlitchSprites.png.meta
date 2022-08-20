@@ -1,0 +1,2918 @@
+fileFormatVersion: 2
+guid: da634a7702f1c4e7cabbedcaa634efaa
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DeadGlitchSprites_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6320
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3289bb1d41d1a42d1ad4370fde956503
+      internalID: 89927155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_1
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 6320
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e8d4136a75a408c8fbaffea6b778e4
+      internalID: 344601962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_2
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 6320
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0260ad645714faa9656cddce6ac48a
+      internalID: 1642277972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_3
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 6320
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df94b91147a743329ff86b446dd9fea
+      internalID: 1997313866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_4
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 6320
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282ec0785a03e440f8738d974b0198ce
+      internalID: -799788872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_5
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 6320
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96908dedf2e7e4bf1b287674dbbc72bc
+      internalID: 1054563610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6004
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1ab541baad647e4a9e2f068dd79f30
+      internalID: 1060836353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_7
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 6004
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4647248aa1444b6e8e698e5383d77b7
+      internalID: -738271091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_8
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 6004
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170c70e969fd1429a907a50f33724415
+      internalID: -34821502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_9
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 6004
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1f5661bd2d146df9cd8c341f6067a3
+      internalID: -794382864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_10
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 6004
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c30aa146ba54ccf8b9aa4ad32cfbd1
+      internalID: 1564083620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_11
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 6004
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c7061ccef46436886f9124936a3513
+      internalID: 22318059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5688
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd234fa063c3b4cc7bb709fe8e105ba6
+      internalID: -1282049012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_13
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 5688
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bdd0c57ed64546048819fd1ce80b3e1
+      internalID: -299938440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_14
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 5688
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ae9ca748be94106bb68d372378eaf7
+      internalID: 671575829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_15
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 5688
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d7501bd9b914663870ce45edb0c6eb
+      internalID: -1905502956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_16
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 5688
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9990836d2900454b9f0312013bb246a
+      internalID: -1686851668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_17
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 5688
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f407b2d99c3c242e6b7e11189e35f5b1
+      internalID: -1134297075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5372
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ecf4fbfe02e4fe88245cd7e4bea08a
+      internalID: -293312665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_19
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 5372
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ef0d63fd5e346d3a5f58b6182ab9c2
+      internalID: 539058909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_20
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 5372
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47882e0d42bd048a9927d3a752553797
+      internalID: -1687602144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_21
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 5372
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a42d23e3b934a4bb87a71f4b411227
+      internalID: -1136832443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_22
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 5372
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e61c4e366ec4df49e90f360db4d949
+      internalID: 1249544439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_23
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 5372
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68307fd139df64aff8bbce41cfe7c3c2
+      internalID: -617803582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5056
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e2cce2a5f284b29a70b6a48401f9dc
+      internalID: -1945003165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_25
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 5056
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dcc4833ab5df4cc1b16d9c7fe416e00
+      internalID: 875581568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_26
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 5056
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895b60ed700cc4962b5191f8ce39d992
+      internalID: -1858435359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_27
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 5056
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035026f4fe5f24d0fa1f858520a83787
+      internalID: -1933333490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_28
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 5056
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cdd811b34a204100ba717acd9a86bf8
+      internalID: 567006646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_29
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 5056
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ecc425417354bada09f4f258d952ab
+      internalID: 744553803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4740
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1156e9a045e074d86ab67879e9d847d0
+      internalID: 964975657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_31
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 4740
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11fb90163cdd466c99514e4b7735864
+      internalID: -1938528562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_32
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4740
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f84a8a5967c442a88acff05d47a83d
+      internalID: -624034545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_33
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4740
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91325b2abe0c74c0b8f369d98444ddab
+      internalID: 1633680881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_34
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4740
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef731633d11843cdadd0e701f0148b8
+      internalID: -2142928581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_35
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4740
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5176aac11ddb451981aacf340cb7aad
+      internalID: -871947981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4424
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b981bab00bc441598d77d5d3b979e1e
+      internalID: 1166084746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_37
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 4424
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56960a56c7e68453dbd64f281db7b95d
+      internalID: 2016494053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_38
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4424
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d14739889ba44eeb54be2e2b98cafd
+      internalID: -164824596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_39
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4424
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627c8559b2ad2488eb1d5649bc357e0d
+      internalID: -1465380488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_40
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4424
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d1bf20870bb4af9bda84d1bb707857
+      internalID: -419487788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_41
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4424
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9430bb28aa33497cb35c59750ad7568
+      internalID: -1773148760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4108
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b2509f818c24895beef3a6594769be
+      internalID: 153773130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_43
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 4108
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8bf22ddd2fa04a478c482e18910c14a
+      internalID: -1985407776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_44
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4108
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4973e6e842a834482b52dfa722266b32
+      internalID: -1584003256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_45
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4108
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5bb6d8a4bad446e858a50c2202ba27
+      internalID: -198953117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_46
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4108
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543c584baf0ea4a3a9dccf3464cef6bd
+      internalID: 459683239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_47
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4108
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfec79ae2ada491cb4848f0f5b2b99c
+      internalID: 1628378939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3792
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b830e39f782e6431389f2598e04032a8
+      internalID: -257295007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_49
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 3792
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2483c45e5f84ccba8bc3f6d1bf8e3b
+      internalID: 1792683016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_50
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3792
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b38a24bc9f3e43049735178c229a044
+      internalID: -1603219503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_51
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 3792
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ced8ade5a484d26ad538bd817c4713
+      internalID: 1168237863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_52
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3792
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af4afd3626484644b0b155629631dcd
+      internalID: -1534701720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_53
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3792
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af10bcf24a6664f85b64ec0d4dfecb8a
+      internalID: 1412225275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3476
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501e8423567d04a4bae1c9d0c9ac0f83
+      internalID: -64397073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_55
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 3476
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8ca012b23ad48dda9ec4ddde415432
+      internalID: -1085019041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_56
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3476
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1a696753a2f465eac84e701ce137ec
+      internalID: 971030830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_57
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3476
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694389a89729849deadf4e09c1dca244
+      internalID: -1669756659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_58
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3476
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a0afc3fa96b42bfa4985941ee918fd
+      internalID: -448585593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_59
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3476
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff054fc365e944d698fbf1f4e1651c3
+      internalID: -1557957004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3160
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6663171d79e4ecca8d4439fb9a7e72
+      internalID: 1747116346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_61
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 3160
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b19e06598204a8abbbb3597bbbc232
+      internalID: -1851104769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_62
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3160
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332c3db9c12504098821cddb1584b06f
+      internalID: 1445520138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_63
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3160
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c82450aefb14422ea2db5b9d27127de
+      internalID: 1094470728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_64
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3160
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400d19cd86c5047d3a2c9b2475995f44
+      internalID: 901290004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_65
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3160
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbc533862a674415a344adce9700a8b
+      internalID: 410987027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2844
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd06fa36a1fb847e3bef705b6b6aaddb
+      internalID: 429385119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_67
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2844
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d784043b6114f6d83ecf6afc629233
+      internalID: 1062012907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_68
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2844
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f08bb0245f54efcb2f964ff9ba5064
+      internalID: 470528916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_69
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2844
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23246fabb8724e598771342e2addd67
+      internalID: 316396423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_70
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2844
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e178e5d31c94c94abca02a41a8ac48
+      internalID: -756682952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_71
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2844
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bf9b5a576d44609a52d88b4ce3a92a
+      internalID: 653564470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2528
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3eea5146b9d44f05933a36a7f14eaa1
+      internalID: -862821684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_73
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2528
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f2746e1654544e288178402beb72de
+      internalID: -1639705151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_74
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2528
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9579b3d69e7c047babc7598f9e7dafb0
+      internalID: 1004825703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_75
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2528
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f183c995f8e92466daa997d31410067f
+      internalID: 1711535244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_76
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2528
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8a9477ff34f486caf166dc76bc076d
+      internalID: 84180749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_77
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2528
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1497e4c5dd34188a4c7de2a8db2454
+      internalID: -24595626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2212
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09971661c881547f8b2929bf534f5a0f
+      internalID: 1577380017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_79
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2212
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed19ba658ff4140909648b126d51ef4e
+      internalID: 215141480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_80
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2212
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67873384c443643b8beaa38c412cad0a
+      internalID: -1301701090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_81
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2212
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf247290ce5fc4f95b3244d01b653cf8
+      internalID: -1532732640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_82
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2212
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5b30f22fb7547f1959926c596dd129
+      internalID: -397048624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_83
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2212
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06143e919f704f099c74886b09e927e
+      internalID: -1535796367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1896
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbc7e359fed343fd8f740e1522c9df7
+      internalID: 154343476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_85
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1896
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571eb2dfd7c414b37a2d33acfb0616e1
+      internalID: -1195872832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_86
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1896
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a114e18a0311b4a149d7f34e6835dc40
+      internalID: 87776016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_87
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1896
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73968f259819d4f98a53e4f1dcb72e8a
+      internalID: 1001409799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_88
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1896
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf987e32132242209a8278840392f13
+      internalID: 103573562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_89
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1896
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc02a60d7850749a18bab89837c7d7ce
+      internalID: 1092942325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1580
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee56b900a01f4dd7a992a8b17791856
+      internalID: 1643166931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_91
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1580
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12004f453481448e91a6ae2f0a830b6
+      internalID: -1682086832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_92
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1580
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: face2b75bf2854371b82edcee8efebdf
+      internalID: 664554363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_93
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1580
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1ec75374f9b4c1abdf1852fec50d70
+      internalID: -357155001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_94
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1580
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ca9c2195fbd4b629d0b2a14ad3c537
+      internalID: -1709824071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_95
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1580
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb017d0388c64de7b000b02792bc0bf
+      internalID: -1633552585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1264
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314cad91225b746dd898fe672dfc663c
+      internalID: 667196286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_97
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1264
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899aa7e261ac947499cb6a78de347b81
+      internalID: -371060114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_98
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1264
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6ccb7d1e8d748e1a176e81d4521ef6
+      internalID: -583881087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_99
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1264
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7af3467bf58d44d49950e9989c23cf5
+      internalID: -1053250869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_100
+      rect:
+        serializedVersion: 2
+        x: 2390
+        y: 1264
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82f6f3e96614421f9aefbd15256077c
+      internalID: -464973380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_101
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1264
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835fbbb0003f14dbeb1fc95bab9a4371
+      internalID: 257767988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 948
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f7e0fa7ac244d9baf5bbb52669e7d7
+      internalID: 986413861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_103
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 948
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6da44be41fc94cec8cd33d01f7500f2
+      internalID: 1593689194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_104
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 948
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c594372e583e4ffd9fbbc786edf72bc
+      internalID: -561701447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_105
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 948
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ecd02748b5284fab854262b7d6ee4ab
+      internalID: 464551296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_106
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 948
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28402f9506284026be10512fe691afe
+      internalID: 1703440107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_107
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 948
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ec9e03e07644290a3b1fb0bfb5c961
+      internalID: 1674957745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 632
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b49d8d411a4542db81107092d82d97e
+      internalID: -1042305376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_109
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 632
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f46164bd6a146f696d88f986274395
+      internalID: 594578895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_110
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 632
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab923b2eb2e074b2398c3e7c6421927b
+      internalID: 258713560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_111
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 632
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf2ed59dcd04424280f34379583a77b
+      internalID: 1947845512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_112
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 632
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ca44955fd954fe9b32a9ac59494368
+      internalID: -1201245733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_113
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 632
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5691bcc67c31d4de3ab35f3a419eab34
+      internalID: -1506248515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_114
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 316
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65c84efe449a4d15bfa9852bdca5f01
+      internalID: -166200233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_115
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 316
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e174b9eedd0e04e7f805e2e7d59b4c32
+      internalID: 1363251213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_116
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 316
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5461e57039a0e498f9af9e94080d4abc
+      internalID: 1628799601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_117
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 316
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95752dd02e9094d19b83505d08010c9c
+      internalID: 985848602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_118
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 316
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44c34d578a774f27ad2913d7f4dad72
+      internalID: -165574144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_119
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 316
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa3ffb1b612d40178bb3de7696bbb5a
+      internalID: 85882439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d92ce9b653d4f5197fd5e2a2d64b8e
+      internalID: -895034279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_121
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dbc08577d9cc4e5f962fd7498bddac7
+      internalID: -315945928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_122
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9240b206c02440c837170a220d1948
+      internalID: -1895354392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_123
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f987389aed6549eeb51b5818e0bb01c
+      internalID: 773575194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_124
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278a1125c6cb44289a2312dfe71da936
+      internalID: -46244123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGlitchSprites_125
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 600
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8fefa9955722423ca7a73025f908691
+      internalID: 120703103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DeadGlitchSprites_72: -862821684
+      DeadGlitchSprites_84: 154343476
+      DeadGlitchSprites_50: -1603219503
+      DeadGlitchSprites_58: -448585593
+      DeadGlitchSprites_39: -1465380488
+      DeadGlitchSprites_38: -164824596
+      DeadGlitchSprites_86: 87776016
+      DeadGlitchSprites_125: 120703103
+      DeadGlitchSprites_85: -1195872832
+      DeadGlitchSprites_12: -1282049012
+      DeadGlitchSprites_87: 1001409799
+      DeadGlitchSprites_67: 1062012907
+      DeadGlitchSprites_101: 257767988
+      DeadGlitchSprites_22: 1249544439
+      DeadGlitchSprites_124: -46244123
+      DeadGlitchSprites_16: -1686851668
+      DeadGlitchSprites_21: -1136832443
+      DeadGlitchSprites_53: 1412225275
+      DeadGlitchSprites_59: -1557957004
+      DeadGlitchSprites_19: 539058909
+      DeadGlitchSprites_62: 1445520138
+      DeadGlitchSprites_1: 344601962
+      DeadGlitchSprites_18: -293312665
+      DeadGlitchSprites_63: 1094470728
+      DeadGlitchSprites_108: -1042305376
+      DeadGlitchSprites_52: -1534701720
+      DeadGlitchSprites_69: 316396423
+      DeadGlitchSprites_65: 410987027
+      DeadGlitchSprites_6: 1060836353
+      DeadGlitchSprites_78: 1577380017
+      DeadGlitchSprites_48: -257295007
+      DeadGlitchSprites_49: 1792683016
+      DeadGlitchSprites_97: -371060114
+      DeadGlitchSprites_120: -895034279
+      DeadGlitchSprites_103: 1593689194
+      DeadGlitchSprites_40: -419487788
+      DeadGlitchSprites_104: -561701447
+      DeadGlitchSprites_117: 985848602
+      DeadGlitchSprites_28: 567006646
+      DeadGlitchSprites_41: -1773148760
+      DeadGlitchSprites_60: 1747116346
+      DeadGlitchSprites_88: 103573562
+      DeadGlitchSprites_80: -1301701090
+      DeadGlitchSprites_24: -1945003165
+      DeadGlitchSprites_83: -1535796367
+      DeadGlitchSprites_3: 1997313866
+      DeadGlitchSprites_76: 84180749
+      DeadGlitchSprites_25: 875581568
+      DeadGlitchSprites_123: 773575194
+      DeadGlitchSprites_11: 22318059
+      DeadGlitchSprites_26: -1858435359
+      DeadGlitchSprites_5: 1054563610
+      DeadGlitchSprites_7: -738271091
+      DeadGlitchSprites_81: -1532732640
+      DeadGlitchSprites_82: -397048624
+      DeadGlitchSprites_51: 1168237863
+      DeadGlitchSprites_121: -315945928
+      DeadGlitchSprites_91: -1682086832
+      DeadGlitchSprites_93: -357155001
+      DeadGlitchSprites_106: 1703440107
+      DeadGlitchSprites_122: -1895354392
+      DeadGlitchSprites_14: 671575829
+      DeadGlitchSprites_0: 89927155
+      DeadGlitchSprites_105: 464551296
+      DeadGlitchSprites_111: 1947845512
+      DeadGlitchSprites_35: -871947981
+      DeadGlitchSprites_10: 1564083620
+      DeadGlitchSprites_98: -583881087
+      DeadGlitchSprites_13: -299938440
+      DeadGlitchSprites_34: -2142928581
+      DeadGlitchSprites_113: -1506248515
+      DeadGlitchSprites_73: -1639705151
+      DeadGlitchSprites_8: -34821502
+      DeadGlitchSprites_74: 1004825703
+      DeadGlitchSprites_47: 1628378939
+      DeadGlitchSprites_45: -198953117
+      DeadGlitchSprites_112: -1201245733
+      DeadGlitchSprites_100: -464973380
+      DeadGlitchSprites_61: -1851104769
+      DeadGlitchSprites_70: -756682952
+      DeadGlitchSprites_99: -1053250869
+      DeadGlitchSprites_110: 258713560
+      DeadGlitchSprites_115: 1363251213
+      DeadGlitchSprites_23: -617803582
+      DeadGlitchSprites_43: -1985407776
+      DeadGlitchSprites_4: -799788872
+      DeadGlitchSprites_109: 594578895
+      DeadGlitchSprites_116: 1628799601
+      DeadGlitchSprites_29: 744553803
+      DeadGlitchSprites_119: 85882439
+      DeadGlitchSprites_17: -1134297075
+      DeadGlitchSprites_95: -1633552585
+      DeadGlitchSprites_9: -794382864
+      DeadGlitchSprites_102: 986413861
+      DeadGlitchSprites_36: 1166084746
+      DeadGlitchSprites_2: 1642277972
+      DeadGlitchSprites_55: -1085019041
+      DeadGlitchSprites_68: 470528916
+      DeadGlitchSprites_79: 215141480
+      DeadGlitchSprites_75: 1711535244
+      DeadGlitchSprites_27: -1933333490
+      DeadGlitchSprites_37: 2016494053
+      DeadGlitchSprites_31: -1938528562
+      DeadGlitchSprites_56: 971030830
+      DeadGlitchSprites_54: -64397073
+      DeadGlitchSprites_64: 901290004
+      DeadGlitchSprites_42: 153773130
+      DeadGlitchSprites_89: 1092942325
+      DeadGlitchSprites_66: 429385119
+      DeadGlitchSprites_77: -24595626
+      DeadGlitchSprites_46: 459683239
+      DeadGlitchSprites_71: 653564470
+      DeadGlitchSprites_32: -624034545
+      DeadGlitchSprites_114: -166200233
+      DeadGlitchSprites_107: 1674957745
+      DeadGlitchSprites_90: 1643166931
+      DeadGlitchSprites_15: -1905502956
+      DeadGlitchSprites_92: 664554363
+      DeadGlitchSprites_96: 667196286
+      DeadGlitchSprites_20: -1687602144
+      DeadGlitchSprites_30: 964975657
+      DeadGlitchSprites_44: -1584003256
+      DeadGlitchSprites_33: 1633680881
+      DeadGlitchSprites_94: -1709824071
+      DeadGlitchSprites_57: -1669756659
+      DeadGlitchSprites_118: -165574144
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
