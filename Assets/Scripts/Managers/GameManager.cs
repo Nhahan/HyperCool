@@ -91,5 +91,10 @@ namespace Managers
         {
             return enemies.Count;
         }
+
+        public List<GameObject> GetEnemies()
+        {
+            return enemies;
+        }
     }
 }

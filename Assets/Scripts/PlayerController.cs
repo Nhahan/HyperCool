@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using Managers;
 using UnityEngine;
 
@@ -102,7 +101,6 @@ public class PlayerController : MonoBehaviour
         if (d > 40f)
         {
             AttackAnimation( downPos.x >= upPos.x);
-            Debug.Log(downPos + " / " +upPos +" / d=" + d);
             StopCoroutine(ActionRoutine(0.03f));
             StartCoroutine(ActionRoutine(0.6f));
         }
@@ -111,22 +109,17 @@ public class PlayerController : MonoBehaviour
     private void AttackAnimation(bool isRight)
     {
         if (GameManager.I.clear) return;
-        Debug.Log("isRight:" + isRight);
         Pause();
         
         if (GameManager.I.pause) return;
         
-        Debug.Log("isAttackAvailable:" + isAttackAvailable);
-        Debug.Log("isAttacking:" + isAttacking);
         if (isRight && isAttacking is 0)
         {
-            Debug.Log("?");
             isAttacking = 1;
             StartCoroutine(SetAnimator("IsRightSlash", 0.6f));
         } 
         else if (!isRight && isAttacking is 0)
         {
-            Debug.Log("!");
             isAttacking = 2;
             StartCoroutine(SetAnimator("IsLeftSlash", 0.317f));
         }

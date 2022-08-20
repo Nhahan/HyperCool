@@ -16,8 +16,6 @@ public class MoveGuide : MonoBehaviour
 
     private Vector3 firstPlayerPos;
 
-    private int guideTime;
-
     private void Start()
     {
         PauseOff();
@@ -35,7 +33,6 @@ public class MoveGuide : MonoBehaviour
         {
             guideRect.anchoredPosition = guideStartPos;
             guideAcceleration = 0;
-            guideTime++;
         }
 
         if (Vector3.Distance(firstPlayerPos, Player.I.transform.position) > 13.5f)
