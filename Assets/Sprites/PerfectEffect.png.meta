@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -1818,12 +1818,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PerfectEffect_75: -1963576608
+      PerfectEffect_78: -1147460540
       PerfectEffect_39: -122225730
       PerfectEffect_43: -800680819
       PerfectEffect_79: 64494117
       PerfectEffect_46: -1923935042
-      PerfectEffect_78: -1147460540
       PerfectEffect_9: 850231036
       PerfectEffect_51: -167818898
       PerfectEffect_15: -180455774
@@ -1892,12 +1891,13 @@ TextureImporter:
       PerfectEffect_37: -1539352631
       PerfectEffect_48: 1912895515
       PerfectEffect_11: -1316590865
-      PerfectEffect_5: 2084865032
       PerfectEffect_55: 860720402
+      PerfectEffect_60: -600854526
+      PerfectEffect_75: -1963576608
       PerfectEffect_7: -1886023638
       PerfectEffect_18: -26495400
-      PerfectEffect_60: -600854526
       PerfectEffect_47: -1622774701
+      PerfectEffect_5: 2084865032
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -48,7 +48,7 @@ public class Bullet : MonoBehaviour
         {
             case "Player":
                 if (isHit) return;
-                Debug.Log("Player Hit");
+                GameManager.I.GameOver();
                 Destroy(gameObject);
                 break;
             case "PlayerWeapon":

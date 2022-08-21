@@ -1,8 +1,6 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -10,14 +8,14 @@ namespace Managers
 {
     public class GameManager : MonoBehaviour
     {
-        [SerializeField] private GameObject next;
-        [SerializeField] private GameObject wall;
-        
+        [SerializeField] private GameObject nextStage;
+        [SerializeField] private GameObject gameOverUI;
+
         public static GameManager I;
         public bool pause;
         public bool gameOver;
         public bool clear;
-        private List<GameObject> enemies = new();
+        private readonly List<GameObject> enemies = new();
 
         private void Awake()
         {
@@ -35,7 +33,7 @@ namespace Managers
         private void Start()
         {
             enemies.AddRange(GameObject.FindGameObjectsWithTag("Enemy").ToList().FindAll(
-                gameObject => gameObject.GetComponentInChildren(typeof(Enemy))));
+                o => o.GetComponentInChildren(typeof(Enemy))));
             StartCoroutine(Pause(true));
         }
 
@@ -48,8 +46,8 @@ namespace Managers
             
             if (Input.GetKeyDown(KeyCode.G))
             {
-                Debug.Log("Resume");
                 pause = false;
+                Debug.Log(pause + " / " + gameOver + " / " + clear);
             }
         }
 
@@ -62,23 +60,15 @@ namespace Managers
 
             if (GetEnemiesCount() == 0)
             {
-                StartCoroutine(WallToNext());
+                StartCoroutine(NextStage());
             }
         }
 
-        private IEnumerator WallToNext()
+        private IEnumerator NextStage()
         {
-            var material = wall.GetComponent<MeshRenderer>().material;
-            var i = 0;
-            while (true)
-            {
-                yield return new WaitForSeconds(0.01f);
-                material.SetColor("_EmissionColor", material.GetColor("_EmissionColor") * 0.975f);
-                i++;
-                if (i == 30) break;
-            }
-            wall.SetActive(false);
-            next.SetActive(true);
+            yield return new WaitForSeconds(1.5f);
+            clear = true;
+            nextStage.SetActive(true);
         }
 
         private IEnumerator Pause(bool b)
@@ -95,6 +85,12 @@ namespace Managers
         public List<GameObject> GetEnemies()
         {
             return enemies;
+        }
+
+        public void GameOver()
+        {
+            gameOver = true;
+            gameOverUI.SetActive(true);
         }
     }
 }

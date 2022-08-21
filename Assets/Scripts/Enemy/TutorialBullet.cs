@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using Managers;
 using UnityEngine;
 
@@ -50,8 +49,7 @@ public class TutorialBullet : MonoBehaviour
             case "PlayerWeapon":
                 if (isHit) return;
                 var d = Vector3.Distance(Player.I.transform.position, transform.position);
-                Debug.Log("Tutorial Bullet d=" + d);
-                if (d < 3.3f)
+                if (d < 3.5f)
                 {
                     UIEffects.I.Perfect();
                     enemy.GetComponent<Enemy>().animator.enabled = false;

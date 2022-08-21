@@ -32,7 +32,7 @@ Transform:
   m_GameObject: {fileID: 5646935182312360496}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.009046376, y: 1.3105278, z: 13.663}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.125, y: 0.125, z: 0.125}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -66,7 +66,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9d9d551fbe2af459799a5835eab80b96, type: 2}
+  - {fileID: 2100000, guid: 2de202dc7f4ae4fc292bdd290135195f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -252,4 +252,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collider: {fileID: 5373057893018961382}
   isMelee: 0
+  guide: {fileID: 5443344982991232547, guid: 41e0e8076a9324ac889293203016d5a3, type: 3}
   enemy: {fileID: 0}

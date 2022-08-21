@@ -57,7 +57,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
-  m_Name: Modeseven-L3n5 SDF
+  m_Name: RestartAnimation
   m_EditorClassIdentifier: 
   hashCode: 575286768
   material: {fileID: 852925848565501900}

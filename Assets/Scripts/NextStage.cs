@@ -6,26 +6,33 @@ using UnityEngine.UI;
 
 public class NextStage : MonoBehaviour
 {
-    [SerializeField] private Image endDim;
+    private Image endDim;
     
-    private void OnTriggerEnter(Collider other)
+    private void Start()
     {
-        if (other.CompareTag("Player")) 
-        {
-            GameManager.I.clear = true;
-            StartCoroutine(EndDim());
-        }
+        endDim = GetComponent<Image>();
+        
+        StartCoroutine(EndDim());
     }
 
     private IEnumerator EndDim()
     {
+        GameManager.I.pause = true;
         var i = 0;
         while (true)
         {
             yield return new WaitForSeconds(0.01f);
-            endDim.color += new Color(0, 0, 0, 0.01f);
+            try
+            {
+                endDim.color += new Color(0, 0, 0, 0.0075f);
+            }
+            catch
+            {
+                // ignored
+            }
+
             i++;
-            if (i > 100) break;
+            if (i > 254) break;
         }
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

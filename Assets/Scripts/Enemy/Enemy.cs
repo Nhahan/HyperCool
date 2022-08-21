@@ -16,7 +16,7 @@ public class Enemy : MonoBehaviour
     
     public Animator animator;
     protected bool isDead;
-    private bool canSeePlayer;
+    public bool canSeePlayer;
     protected bool IsAttacking;
     private Mesh destructibleMesh;
     private MeshRenderer destructibleMeshRenderer;
@@ -54,7 +54,31 @@ public class Enemy : MonoBehaviour
         if (canSeePlayer) return;
 
         canSeePlayer = Vector3.Distance(transform.position, Player.I.transform.position) < radius;
-        if (canSeePlayer) IsAttacking = true;
+        if (canSeePlayer)
+        {
+            IsAttacking = true;
+            // ReSharper disable once Unity.PerformanceCriticalCodeInvocation
+            SpreadEnemiesToAttack();
+        }
+    }
+
+    private void SpreadEnemiesToAttack()
+    {
+        GameManager.I.GetEnemies().ForEach(e =>
+        {
+            // ReSharper disable once Unity.PerformanceCriticalCodeInvocation
+            var enemy = e.GetComponent<Enemy>();
+            if (!enemy.canSeePlayer && Vector3.Distance(transform.position, e.transform.position) < 15)
+            {
+                enemy.SetToAttack();
+            }
+        });
+    }
+
+    public void SetToAttack()
+    {
+        canSeePlayer = true;
+        IsAttacking = true;
     }
     
     public void SetCuttible()

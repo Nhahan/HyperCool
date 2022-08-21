@@ -113,6 +113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8e16bdc1f6164231abd1847315bc77b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOver: {fileID: 0}
   collider: {fileID: 5373057893018961382}
   isMelee: 0
   enemy: {fileID: 0}
@@ -153,7 +154,7 @@ TrailRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7b52d21bcc5704ab396ac08b294d19be, type: 2}
+  - {fileID: 2100000, guid: df1898efd6f7a46c699ece201eb44705, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

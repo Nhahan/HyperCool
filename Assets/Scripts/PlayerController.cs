@@ -34,6 +34,7 @@ public class PlayerController : MonoBehaviour
     {
         if (GameManager.I.clear)
         {
+            Time.timeScale = 1;
             rb.velocity = Vector3.zero;
             return;
         }
@@ -94,15 +95,16 @@ public class PlayerController : MonoBehaviour
 
     private IEnumerator Attack()
     {
-        yield return new WaitForSeconds(0.005f);
+        yield return new WaitForSeconds(0.0105f);
         
         var upPos = Input.mousePosition;
         var d = Vector3.Distance(downPos, upPos);
+        Debug.Log("d:"+d);
         if (d > 40f)
         {
             AttackAnimation( downPos.x >= upPos.x);
             StopCoroutine(ActionRoutine(0.03f));
-            StartCoroutine(ActionRoutine(0.6f));
+            StartCoroutine(ActionRoutine(0.55f));
         }
     }
 

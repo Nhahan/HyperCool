@@ -19,11 +19,11 @@ public class DestroyAfter : MonoBehaviour
         try
         {
             setActiveAfter.ForEach(o => o.SetActive(true));
-            if (startAfterDestroy && pauseOff) GameManager.I.pause = false;
         }
         catch
         {
             // ignored
         }
+        if (startAfterDestroy && pauseOff) GameManager.I.pause = false;
     }
 }
