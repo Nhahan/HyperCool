@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     
     public int isAttacking;
     public bool isAttackAvailable;
+    private float attackCooltime;
 
     private Vector3 downPos;
     private Vector3 upPos;
@@ -53,13 +54,16 @@ public class PlayerController : MonoBehaviour
 
     private void TimeScale()
     {
-        if (testMode) return;
         
-        if (GameManager.I.pause)
+        if (GameManager.I.pause || GameManager.I.gameOver)
         {
             Time.timeScale = 1;
             return;
         }
+
+        attackCooltime -= Time.deltaTime / Time.timeScale;
+        
+        if (testMode) return;
         
         rb.velocity = new Vector3(variableJoystick.Horizontal, 0, variableJoystick.Vertical) *
                       (movementSpeed * Time.deltaTime);
@@ -95,12 +99,12 @@ public class PlayerController : MonoBehaviour
 
     private IEnumerator Attack()
     {
-        yield return new WaitForSeconds(0.0105f);
+        yield return new WaitForSeconds(0.0125f);
         
         var upPos = Input.mousePosition;
         var d = Vector3.Distance(downPos, upPos);
-        Debug.Log("d:"+d);
-        if (d > 40f)
+        Debug.Log("d:" + d + " / clear:" + GameManager.I.clear + " / pause:" + GameManager.I.pause);
+        if (d > 30f)
         {
             AttackAnimation( downPos.x >= upPos.x);
             StopCoroutine(ActionRoutine(0.03f));
@@ -114,16 +118,17 @@ public class PlayerController : MonoBehaviour
         Pause();
         
         if (GameManager.I.pause) return;
+        if (attackCooltime > 0) return;
         
         if (isRight && isAttacking is 0)
         {
             isAttacking = 1;
-            StartCoroutine(SetAnimator("IsRightSlash", 0.6f));
+            StartCoroutine(SetAnimator("IsRightSlash"));
         } 
         else if (!isRight && isAttacking is 0)
         {
             isAttacking = 2;
-            StartCoroutine(SetAnimator("IsLeftSlash", 0.317f));
+            StartCoroutine(SetAnimator("IsLeftSlash"));
         }
 
         switch (isAttacking)
@@ -141,15 +146,30 @@ public class PlayerController : MonoBehaviour
         }
     }
     
-    private IEnumerator SetAnimator(string anim, float time)
+    private IEnumerator SetAnimator(string anim)
     {
-        yield return new WaitForSeconds(time / 10 * 3f);
-        isAttackAvailable = true;
+        if (anim == "IsRightSlash") 
+        {
+            yield return new WaitForSeconds(0.12f);
+            isAttackAvailable = true;
 
-        yield return new WaitForSeconds(time / 10 * 4f);
-        isAttacking = 0;
-        isAttackAvailable = false;
-        animator.SetBool(anim, false);
+            yield return new WaitForSeconds(0.22f);
+            isAttacking = 0;
+            isAttackAvailable = false;
+            animator.SetBool(anim, false);
+            attackCooltime = 0.551f;
+        }
+        else
+        {
+            yield return new WaitForSeconds(0.05f);
+            isAttackAvailable = true;
+
+            yield return new WaitForSeconds(0.2f);
+            isAttacking = 0;
+            isAttackAvailable = false;
+            animator.SetBool(anim, false);
+            attackCooltime = 0.3171f;
+        }
     }
     
     private void Pause()

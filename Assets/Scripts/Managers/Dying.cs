@@ -6,6 +6,7 @@ public class Dying : MonoBehaviour
 
     private void SetDeadActive()
     {
+        Time.timeScale = 1;
         dead.SetActive(true);
     }
 }

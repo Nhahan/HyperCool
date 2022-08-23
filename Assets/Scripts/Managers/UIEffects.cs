@@ -44,7 +44,7 @@ public class UIEffects : MonoBehaviour
             }
             
             if (isUp) {
-                if (rect.anchoredPosition.y < -300)
+                if (rect.anchoredPosition.y < -700)
                 {
                     rect.anchoredPosition += new Vector2(0, 400 * Time.deltaTime * acceleration / Time.timeScale);
                 }
@@ -56,7 +56,7 @@ public class UIEffects : MonoBehaviour
             }
             else // if isUp is true
             {
-                if (rect.anchoredPosition.y > -225)
+                if (rect.anchoredPosition.y > -800)
                 {
                     rect.anchoredPosition -= new Vector2(0, 400 * Time.deltaTime * acceleration / Time.timeScale);
                 }

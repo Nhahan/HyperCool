@@ -138,7 +138,7 @@ TrailRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7b52d21bcc5704ab396ac08b294d19be, type: 2}
+  - {fileID: 2100000, guid: df1898efd6f7a46c699ece201eb44705, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -252,5 +252,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collider: {fileID: 5373057893018961382}
   isMelee: 0
-  guide: {fileID: 5443344982991232547, guid: 41e0e8076a9324ac889293203016d5a3, type: 3}
   enemy: {fileID: 0}

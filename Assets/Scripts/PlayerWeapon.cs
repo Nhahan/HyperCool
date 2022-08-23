@@ -1,14 +1,18 @@
+using System.Collections;
 using System.Collections.Generic;
+using TrailsFX;
 using UnityEngine;
 
 public class PlayerWeapon : MonoBehaviour
 {
     private PlayerController controller;
+    private TrailEffect trailEffect;
     private readonly List<BoxCollider> boxColliders = new();
 
     private void Start()
     {
         controller = transform.root.GetComponent<PlayerController>();
+        trailEffect = GetComponent<TrailEffect>();
         boxColliders.AddRange(GetComponents<BoxCollider>());
     }
 
@@ -17,10 +21,12 @@ public class PlayerWeapon : MonoBehaviour
         if (controller.isAttackAvailable)
         {
             boxColliders.ForEach(boxCollider => boxCollider.enabled = true);
+            StartCoroutine(SetTrail());
         }
         else
         {
-            boxColliders.ForEach(boxCollider => boxCollider.enabled = false);   
+            boxColliders.ForEach(boxCollider => boxCollider.enabled = false);
+            
         }
     }
 
@@ -44,5 +50,15 @@ public class PlayerWeapon : MonoBehaviour
         {
             // ignored
         }
+    }
+
+    private IEnumerator SetTrail()
+    {
+        yield return new WaitForSeconds(0.05f);
+        trailEffect.maxStepsPerFrame = 72;
+        
+        yield return new WaitForSeconds(0.1f);
+        
+        trailEffect.maxStepsPerFrame = 0;
     }
 }

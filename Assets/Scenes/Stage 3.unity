@@ -159,8 +159,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 400, y: 50}
+  m_AnchoredPosition: {x: 100, y: 0}
+  m_SizeDelta: {x: 600, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &14497838
 MonoBehaviour:
@@ -224,8 +224,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 120
+  m_fontSizeBase: 120
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -979,7 +979,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &199475344
 Animator:
   serializedVersion: 4
@@ -1119,8 +1119,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 525, y: -640}
-  m_SizeDelta: {x: 250, y: 75}
+  m_AnchoredPosition: {x: 525, y: -1100}
+  m_SizeDelta: {x: 500, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!4 &205353715 stripped
 Transform:
@@ -3309,7 +3309,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: e251d6f4c4db24b8b88166c726695534, type: 3}
 --- !u!4 &1016022647 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 454499334693625905, guid: e251d6f4c4db24b8b88166c726695534, type: 3}
+  m_CorrespondingSourceObject: {fileID: 5013510302380963972, guid: e251d6f4c4db24b8b88166c726695534, type: 3}
   m_PrefabInstance: {fileID: 1016022646}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1072996096

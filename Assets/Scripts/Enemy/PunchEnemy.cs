@@ -31,7 +31,7 @@ public class PunchEnemy : Enemy
     private void AutoAttack(float d)
     {
         if (isDead) return;
-        if (d < 0.7f)
+        if (d < 0.5f)
         {
             Debug.Log("AutoAttack, d = "+ d);
         }
@@ -46,11 +46,17 @@ public class PunchEnemy : Enemy
             AutoAttack(d);
             return;
         }
-        
+
+        if (speed == 0) Nav.isStopped = false;
         if (animator.GetBool("IsWalk"))
         {
-            transform.position =
-                Vector3.MoveTowards(transform.position, Player.I.transform.position, speed * Time.deltaTime);
+            // transform.position =
+            //     Vector3.MoveTowards(transform.position, Player.I.transform.position, speed * Time.deltaTime);
+            Nav.isStopped = false;
+        }
+        else
+        {
+            Nav.isStopped = true;
         }
     }
 
@@ -69,9 +75,9 @@ public class PunchEnemy : Enemy
     private void SetAnimator()
     {
         animatorCooltime += Time.deltaTime;
-        if (animatorCooltime < 0.2725f) return;
+        if (animatorCooltime < 0.2f) return;
 
-        if (Vector3.Distance(Player.I.transform.position, transform.position) < 2.15f)
+        if (Vector3.Distance(Player.I.transform.position, transform.position) < 2.1f)
         {
             bullet.SetActive(true);
             animator.SetBool("IsFire", true);

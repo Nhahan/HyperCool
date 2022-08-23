@@ -29,7 +29,7 @@ public class MoveGuide : MonoBehaviour
     {
         guideAcceleration += Time.deltaTime + 0.1f;
         guideRect.anchoredPosition += new Vector2(0, 100 * Time.deltaTime * guideAcceleration / Time.timeScale);
-        if (guideRect.anchoredPosition.y > 50)
+        if (guideRect.anchoredPosition.y > -500)
         {
             guideRect.anchoredPosition = guideStartPos;
             guideAcceleration = 0;

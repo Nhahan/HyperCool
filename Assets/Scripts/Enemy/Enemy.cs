@@ -2,6 +2,7 @@ using System;
 using DynamicMeshCutter;
 using Managers;
 using UnityEngine;
+using UnityEngine.AI;
 using Random = UnityEngine.Random;
 
 public class Enemy : MonoBehaviour
@@ -20,9 +21,12 @@ public class Enemy : MonoBehaviour
     protected bool IsAttacking;
     private Mesh destructibleMesh;
     private MeshRenderer destructibleMeshRenderer;
+    protected NavMeshAgent Nav;
 
     protected void Start()
     {
+        Nav = gameObject.AddComponent<NavMeshAgent>();
+        Nav.SetDestination(Player.I.transform.position);
         plane.transform.eulerAngles += new Vector3(plane.transform.rotation.x + Random.Range(-20f, 20f), Random.Range(-20f, 20f), 0);
         plane.transform.position += new Vector3(0,0, Random.Range(-0.7f, 0.2f));
         animator = gameObject.GetComponent<Animator>();
@@ -129,5 +133,6 @@ public class Enemy : MonoBehaviour
     private void Pause()
     {
         animator.enabled = !GameManager.I.pause;
+        Nav.speed = GameManager.I.pause ? 0 : 1;
     }
 }

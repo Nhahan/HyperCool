@@ -35,8 +35,13 @@ public class PistolEnemy : Enemy
     {
         if (animator.GetBool("IsWalk"))
         {
-            transform.position =
-                Vector3.MoveTowards(transform.position, Player.I.transform.position, speed * Time.deltaTime);
+            // transform.position =
+            //     Vector3.MoveTowards(transform.position, Player.I.transform.position, speed * Time.deltaTime);
+            Nav.isStopped = false;
+        }
+        else
+        {
+            Nav.isStopped = true;
         }
     }
 

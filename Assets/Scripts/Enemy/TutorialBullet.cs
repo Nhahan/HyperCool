@@ -109,7 +109,7 @@ public class TutorialBullet : MonoBehaviour
             isPerfectHit = true;
             yield return new WaitForSeconds(0.07f);
             i++;
-            if (i > 2) break;
+            if (i > 3) break;
         }
     }
 }
