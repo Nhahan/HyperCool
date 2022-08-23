@@ -2940,30 +2940,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 807931902180464735, guid: 20313c4d775cf49b98d36fe48fa34b91, type: 3}
-      propertyPath: duration
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 807931902180464735, guid: 20313c4d775cf49b98d36fe48fa34b91, type: 3}
-      propertyPath: maxStepsPerFrame
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 807931902180464735, guid: 20313c4d775cf49b98d36fe48fa34b91, type: 3}
-      propertyPath: colorOverTime.key1.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 807931902180464735, guid: 20313c4d775cf49b98d36fe48fa34b91, type: 3}
-      propertyPath: colorOverTime.key1.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 807931902180464735, guid: 20313c4d775cf49b98d36fe48fa34b91, type: 3}
-      propertyPath: colorOverTime.key1.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 807931902180464735, guid: 20313c4d775cf49b98d36fe48fa34b91, type: 3}
-      propertyPath: colorOverTime.key1.r
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3181399575994860325, guid: 20313c4d775cf49b98d36fe48fa34b91, type: 3}
       propertyPath: m_Name
       value: Player

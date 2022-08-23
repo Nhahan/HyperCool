@@ -6,13 +6,13 @@ using UnityEngine;
 public class PlayerWeapon : MonoBehaviour
 {
     private PlayerController controller;
-    private TrailEffect trailEffect;
+    [SerializeField] private List<TrailRenderer> trails;
     private readonly List<BoxCollider> boxColliders = new();
 
     private void Start()
     {
-        controller = transform.root.GetComponent<PlayerController>();
-        trailEffect = GetComponent<TrailEffect>();
+        var root = transform.root;
+        controller = root.GetComponent<PlayerController>();
         boxColliders.AddRange(GetComponents<BoxCollider>());
     }
 
@@ -54,11 +54,9 @@ public class PlayerWeapon : MonoBehaviour
 
     private IEnumerator SetTrail()
     {
-        yield return new WaitForSeconds(0.05f);
-        trailEffect.maxStepsPerFrame = 72;
+        trails.ForEach(trail => trail.time = 0.35f);
         
-        yield return new WaitForSeconds(0.1f);
-        
-        trailEffect.maxStepsPerFrame = 0;
+        yield return new WaitForSeconds(0.3f);
+        trails.ForEach(trail => trail.time = 0);
     }
 }

@@ -40,15 +40,18 @@ public class PlayerController : MonoBehaviour
             return;
         }
         
+        attackCooltime -= Time.deltaTime / Time.timeScale;
         if (!GameManager.I.gameOver)
         {
+            Debug.Log(attackCooltime);
+            if (attackCooltime > 0) return;
             if (Input.GetMouseButtonDown(0))
             {
                 downPos = Input.mousePosition;
                 StartCoroutine(Attack());
             }
         }
-
+        
         TimeScale();
     }
 
@@ -61,8 +64,6 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
-        attackCooltime -= Time.deltaTime / Time.timeScale;
-        
         if (testMode) return;
         
         rb.velocity = new Vector3(variableJoystick.Horizontal, 0, variableJoystick.Vertical) *
@@ -118,8 +119,7 @@ public class PlayerController : MonoBehaviour
         Pause();
         
         if (GameManager.I.pause) return;
-        if (attackCooltime > 0) return;
-        
+
         if (isRight && isAttacking is 0)
         {
             isAttacking = 1;
@@ -157,7 +157,7 @@ public class PlayerController : MonoBehaviour
             isAttacking = 0;
             isAttackAvailable = false;
             animator.SetBool(anim, false);
-            attackCooltime = 0.551f;
+            attackCooltime = 0.55f;
         }
         else
         {
@@ -168,7 +168,7 @@ public class PlayerController : MonoBehaviour
             isAttacking = 0;
             isAttackAvailable = false;
             animator.SetBool(anim, false);
-            attackCooltime = 0.3171f;
+            attackCooltime = 0.317f;
         }
     }
     
