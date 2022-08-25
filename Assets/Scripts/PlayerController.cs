@@ -43,7 +43,6 @@ public class PlayerController : MonoBehaviour
         attackCooltime -= Time.deltaTime / Time.timeScale;
         if (!GameManager.I.gameOver)
         {
-            Debug.Log(attackCooltime);
             if (attackCooltime > 0) return;
             if (Input.GetMouseButtonDown(0))
             {
@@ -104,8 +103,7 @@ public class PlayerController : MonoBehaviour
         
         var upPos = Input.mousePosition;
         var d = Vector3.Distance(downPos, upPos);
-        Debug.Log("d:" + d + " / clear:" + GameManager.I.clear + " / pause:" + GameManager.I.pause);
-        if (d > 30f)
+        if (d > 60f)
         {
             AttackAnimation( downPos.x >= upPos.x);
             StopCoroutine(ActionRoutine(0.03f));

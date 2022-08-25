@@ -79,7 +79,6 @@ public class Bullet : MonoBehaviour
                 if (isHit)
                 {
                     collider.enabled = true;
-                    Debug.Log("Enemy Hit");
                     
                     other.transform.root.GetComponent<Enemy>().SetCuttibleByBullet();
                     Destroy(other.gameObject);

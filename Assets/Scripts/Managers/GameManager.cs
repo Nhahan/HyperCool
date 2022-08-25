@@ -47,7 +47,6 @@ namespace Managers
             if (Input.GetKeyDown(KeyCode.G))
             {
                 pause = false;
-                Debug.Log(pause + " / " + gameOver + " / " + clear);
             }
         }
 

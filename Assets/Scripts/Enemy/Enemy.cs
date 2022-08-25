@@ -27,6 +27,7 @@ public class Enemy : MonoBehaviour
     {
         Nav = gameObject.AddComponent<NavMeshAgent>();
         Nav.SetDestination(Player.I.transform.position);
+        Nav.isStopped = true;
         plane.transform.eulerAngles += new Vector3(plane.transform.rotation.x + Random.Range(-20f, 20f), Random.Range(-20f, 20f), 0);
         plane.transform.position += new Vector3(0,0, Random.Range(-0.7f, 0.2f));
         animator = gameObject.GetComponent<Animator>();

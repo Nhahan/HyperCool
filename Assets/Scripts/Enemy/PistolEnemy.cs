@@ -33,6 +33,7 @@ public class PistolEnemy : Enemy
 
     private void Move()
     {
+        if (!canSeePlayer) return;
         if (animator.GetBool("IsWalk"))
         {
             // transform.position =

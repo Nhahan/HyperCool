@@ -33,7 +33,7 @@ public class PunchEnemy : Enemy
         if (isDead) return;
         if (d < 0.5f)
         {
-            Debug.Log("AutoAttack, d = "+ d);
+            GameManager.I.GameOver();
         }
     }
 
@@ -48,6 +48,7 @@ public class PunchEnemy : Enemy
         }
 
         if (speed == 0) Nav.isStopped = false;
+        if (!canSeePlayer) return;
         if (animator.GetBool("IsWalk"))
         {
             // transform.position =
